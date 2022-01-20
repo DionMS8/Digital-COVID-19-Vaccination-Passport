@@ -32,15 +32,15 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ## Flow Diagrams
 
-# Citizen Profile Updates
+### Citizen Profile Updates
 
 ![image](https://user-images.githubusercontent.com/55777067/150393794-c9ecf210-63d6-4e33-946d-3e94c075afbb.png)
 
-# QR Code Generation and Validation
+### QR Code Generation and Validation
 
 ![image](https://user-images.githubusercontent.com/55777067/150393895-a38b55e3-0213-4d52-ba22-1f17423de35b.png)
 
-# Cloud Hosting with Heroku
+### Cloud Hosting with Heroku
 
 ![image](https://user-images.githubusercontent.com/55777067/150394413-6b1e28d6-2734-4795-986d-ed4d63a51533.png)
 
