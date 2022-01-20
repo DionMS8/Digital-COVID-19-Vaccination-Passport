@@ -42,6 +42,7 @@ This repo contains the source code for a web-based system for facilitating the d
 
 # Cloud Hosting with Heroku
 
+![image](https://user-images.githubusercontent.com/55777067/150394413-6b1e28d6-2734-4795-986d-ed4d63a51533.png)
 
 ## Screenshots
 
