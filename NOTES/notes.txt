@@ -1,0 +1,19 @@
+=====[NOTES]==========================================
+
+- MODELS MUST BE IMPORTED INTO THE APP.JS FILE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
