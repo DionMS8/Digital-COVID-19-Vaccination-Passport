@@ -4,6 +4,12 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from "cors";
 
+// LOADING IN THE ROUTES
+import citizenRoutes from './routes/citizenRoutes.js';
+import inquirerRoutes from './routes/inquirer'
+import mohRoutes from './routes/mohRoutes.js';
+import vaxAdminRoutes from './routes/adminRoutes.js';
+
 // INSTANTIATING AN EXPRESS OBJECT
 const app = express();
 
