@@ -19,13 +19,13 @@ body{
 .container{
   max-width: 1000px;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   padding: 25px 40px;
   border: 2px solid #D00000;
   border-radius: 5px;
-  box-shadow: 15px 15px 20px #D00000;
-  height: 120%;
-  margin-top: 7%;
+  box-shadow: 10px 10px 15px #D00000;
+  height: 100%;
+  margin-bottom: 15px;
 }
 
 .container .title{
@@ -70,9 +70,10 @@ form .input-box span.details{
   font-size: 16px;
   border-radius: 5px;
   padding-left: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(180, 180, 180);
   border-bottom-width: 2px;
   transition: all 0.3s ease;
+  background: rgb(226, 222, 222);
 }
 
 .user-details .input-box input:focus,
@@ -120,9 +121,9 @@ form .input-box span.details{
  }
 
  form .button{
-   height: 45px;
-   margin: 35px 0
- }
+  height: 45px;
+  margin: 25px 0
+}
 
  form .button input{
    height: 100%;
