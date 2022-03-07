@@ -62,7 +62,7 @@ nav .content .links{
 .content .links li{
   list-style: none;
   line-height: 30px;
-  margin-left: 70px;
+  margin-left: 30px;
 }
 
 .content .links li a,
@@ -172,14 +172,17 @@ nav .content .links{
   line-height: 30px;
   border-radius: 0px!important;
 }
+
 .content .links ul ul{
   position: absolute;
   top: 0;
   right: calc(-100% + 8px);
 }
+
 .content .links ul li{
   position: relative;
 }
+
 .content .links ul li:hover ul{
   top: 0;
 }
@@ -390,7 +393,7 @@ nav .content .links{
       
     
   
-/*****[REPORTS FORM]********************************************************************************************************************************************/
+/*****[FORM]********************************************************************************************************************************************/
 
 .container{
   max-width: 1000px;
@@ -455,7 +458,7 @@ form .input-box span.details{
 
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
-  border-color: #9b59b6;
+  border-color: #fd0e0e;
 }
 
 textarea {
@@ -465,7 +468,7 @@ textarea {
 }
 
 textarea:focus {
-  border-color: #9b59b6;
+  border-color: #fd0e0e;
 }
 
  form .category{
@@ -546,9 +549,39 @@ form .user-details .input-box{
   font-weight: 600;
   margin-bottom: 20px;
   color: #000;
-  display: block;
+}
+
+#date-input {
+  color: rgb(131, 128, 128);
 }
 
 /**************************************************************************************************************************************************************/
+
+.user-details .vax-info .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid rgb(180, 180, 180);
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  background: rgb(226, 222, 222);
+}
+
+.content form .user-details .vax-info{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 10px 12px 10px;
+}
+
+form .user-details .vax-info .input-box{
+
+  width: calc(100% / 3 - 9px);
+  
+}
 
 
