@@ -27,11 +27,14 @@ body {
     border: 3px solid rgb(177, 173, 173);
 }
 
-h1 {
-    font-size: 30px;
-    margin-top: 20px;
-    margin-left: 40px;
+#overallContainer #title{
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 40px;
+  position: relative;
 }
+
 
 #qrcodeButton {
     height: 45px;

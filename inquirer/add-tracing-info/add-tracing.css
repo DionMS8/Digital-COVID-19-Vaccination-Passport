@@ -19,7 +19,7 @@ body {
   background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
   background-repeat: repeat;
   /* background-attachment: fixed; */
-  background-size: 115% 50%;
+  background-size: 115% 80%;
 }
 
 .wrapper{
@@ -462,7 +462,7 @@ form .user-details .input-box{
 }
 
 
-.user-details .vax-info .input-box input{
+.user-details .tracing-info .input-box input{
   height: 45px;
   width: 100%;
   outline: none;
@@ -475,7 +475,7 @@ form .user-details .input-box{
   background: rgb(226, 222, 222);
 }
 
-.content form .user-details .vax-info{
+.content form .user-details .tracing-info{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -483,7 +483,7 @@ form .user-details .input-box{
   margin: 10px 10px 12px 10px;
 }
 
-form .user-details .vax-info .input-box{
+form .user-details .tracing-info .input-box{
 
   width: calc(100% / 3 - 15px);
   
@@ -492,7 +492,6 @@ form .user-details .vax-info .input-box{
 
 
 /*****[FOOTER SECTION]*******************************************************************************************************************************/
-
 
 .footer {
   display: flex;

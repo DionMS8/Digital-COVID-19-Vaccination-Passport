@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Citizen | COVIDVaxTT</title>
-    <link rel="stylesheet" href="vax-info.css">
+    <title>Inquirer | COVIDVaxTT</title>
+    <link rel="stylesheet" href="add-tracing.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="shortcut icon" type="image/jpg" href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png"/>
@@ -22,13 +22,12 @@
         <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
         <div class="content">
           <div><img class="tt-icon" src= "C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png"></div>
-        <div class="logo"><a href="#">CoVaxPassTT | CITIZEN PORTAL</a></div>
+        <div class="logo"><a href="#">CoVaxPassTT | INQUIRER PORTAL</a></div>
 
           <ul class="links">
             <!--<li><a href="#">Home</a></li>-->
-            <li><a href="#">Profile</a></li>
-            <li class="active"><a href="#">Vaccination History</a></li>
-            <li><a href="#">Contact Tracing</a></li>
+            <li class="active"><a href="#">QR Code Scanning</a></li>
+            <li><a href="#">Reported Cases</a></li>
           </ul>
         </div>
 
@@ -40,84 +39,33 @@
     
     <div class="container">
 
-      <div class="title">Your Vaccination History</div>
-
+      <div class="title">Information for this scenario of QR code validation</div>
+      <br>
+      <p class="form-heading">Please enter the information below for contact tracing:</p>
 
       <div class="content">
 
         <form action="insert-vax.php" method="POST">
 
           <div class="user-details">
-          
-            <div class="input-box">
-              <span class="details">Vaccine Administration Site</span>
-              <input type="text" required>
-            </div>
-
-            <div class="input-box">
-              <span class="details">Number of Doses Received</span>
-              <input type="text" required>
-            </div>
-
-            <div class="input-box">
-              <span class="details">Full Name of Vaccine Administrator</span>
-              <input type="text" required>
-            </div>
-
-
-            <br><br><br><br><br>
 
             <!--<p class="form-heading">Vaccination History</p>-->
             
+            <div class="tracing-info">
             
-            <div class="vax-info">
-            
               <div class="input-box">
-                <span class="details">Vaccine Type</span>
-                <input type="text" required>
+                <span class="details">Citizen ID Number</span>
+                <input type="text" placeholder="Enter the citizen's ID number" required>
+              </div>
+
+              <div class="input-box">
+                <span class="details">Company Name</span>
+                <input type="text" placeholder="Enter your company's name" required>
               </div>
               
-
               <div class="input-box">
-                <span class="details">Date of Vaccination</span>
-                <input id="date-input" required>
-              </div>
-
-              <div class="input-box">
-                <span class="details">Batch Number</span>
-                <input type="text" required>
-              </div>
-
-              <div class="input-box">
-                <span class="details">Vaccine Type</span>
-                <input type="text" required>
-              </div>
-              
-
-              <div class="input-box">
-                <span class="details">Date of Vaccination</span>
-                <input id="date-input" required>
-              </div>
-
-              <div class="input-box">
-                <span class="details">Batch Number</span>
-                <input type="text" required>
-              </div>
-
-              <div class="input-box">
-                <span class="details">Vaccine Type</span>
-                <input type="text" required>
-              </div>
-              
-
-              <div class="input-box">
-                <span class="details">Date of Vaccination</span>
-                <input id="date-input" required>
-              </div>
-
-              <div class="input-box">
-                <span class="details">Batch Number</span>
-                <input type="text" required>
+                <span class="details">Company Address</span>
+                <input id="date-input" placeholder="Enter your company's address" required>
               </div>
 
             </div>
@@ -126,9 +74,8 @@
 
           </div>
 
-
           <div class="button">
-            <input type="submit" value="GENERATE QR CODE">
+            <input type="submit" value="PROCEED">
           </div>
 
           <br>

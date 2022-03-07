@@ -19,7 +19,7 @@ body {
   background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
   background-repeat: repeat;
   /* background-attachment: fixed; */
-  background-size: 120% 50%;
+  background-size: 115% 60%;
 }
 
 .wrapper{
@@ -297,100 +297,6 @@ nav .content .links{
   margin-left: -40px;
 }
 
-/*****[FOOTER SECTION]*******************************************************************************************************************************/
-
-
-    .footer {
-      display: flex;
-      flex-flow: row wrap;
-      padding: 50px;
-      color: #fff;
-      border-top: 2px solid #D00000;
-      background: linear-gradient(#59C5B3, #009D7E);
-      opacity: 0.95
-      }
-      
-    .footer > * {
-      flex:  1 100%;
-      }
-      
-    .l-footer {
-      margin-right: 1.25em;
-      margin-bottom: 2em;
-      }
-      
-    h2 {
-      font-weight: 400;
-      font-size: 15px;
-      }
-    
-    .logox {
-      height: 50px;
-      width: 50px;
-    }
-
-    .footer ul {
-      list-style: none;
-      padding-left: 0;
-      }
-      
-    .footer li {
-      line-height: 2em;
-      }
-      
-    .footer a {
-      text-decoration: none;
-      }
-      
-    .r-footer {
-      display: flex;
-      flex-flow: row wrap;
-      }
-      
-    .r-footer > * {
-      flex: 1 50%;
-      margin-right: 1.25em;
-      }
-      
-    .box a {
-      color: rgb(255, 255, 255);
-      }
-      
-      .h-box {
-      column-count: 2;
-      column-gap: 1.25em;
-      border: 1px solid black;
-      }
-      
-    .b-footer {
-      text-align: center;
-      color: rgb(255, 255, 255);
-      padding-top: 50px;
-      }
-      
-    .l-footer p {
-      padding-right: 20%;
-      color: rgb(255, 255, 255);
-      }   
-      
-      @media screen and (min-width: 600px) {
-      .r-footer > * {
-      flex: 1;
-      }
-      
-      .features {
-      flex-grow: 2;
-      }
-      
-      .l-footer {
-      flex: 1 0px;
-      }
-      
-      .r-footer {
-      flex: 2 0px;
-      }
-      }
-      
     
   
 /*****[FORM]********************************************************************************************************************************************/
@@ -555,7 +461,6 @@ form .user-details .input-box{
   color: rgb(131, 128, 128);
 }
 
-/**************************************************************************************************************************************************************/
 
 .user-details .vax-info .input-box input{
   height: 45px;
@@ -580,8 +485,107 @@ form .user-details .input-box{
 
 form .user-details .vax-info .input-box{
 
-  width: calc(100% / 3 - 9px);
+  width: calc(100% / 3 - 15px);
   
 }
 
 
+/*****[FOOTER SECTION]*******************************************************************************************************************************/
+
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #fff;
+  border-top: 2px solid #D00000;
+  background: linear-gradient(#59C5B3, #009D7E);
+  opacity: 0.95
+  }
+  
+.footer > * {
+  flex:  1 100%;
+  }
+  
+.l-footer {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+  }
+  
+h2 {
+  font-weight: 400;
+  font-size: 15px;
+  }
+
+.logox {
+  height: 50px;
+  width: 50px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  }
+  
+.footer li {
+  line-height: 2em;
+  }
+  
+.footer a {
+  text-decoration: none;
+  }
+  
+.r-footer {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  
+.r-footer > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+  }
+  
+.box a {
+  color: rgb(255, 255, 255);
+  }
+  
+  .h-box {
+  column-count: 2;
+  column-gap: 1.25em;
+  border: 1px solid black;
+  }
+  
+.b-footer {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 50px;
+  }
+  
+.l-footer p {
+  padding-right: 20%;
+  color: rgb(255, 255, 255);
+  }   
+
+.l-footer h1 {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  }
+  
+  @media screen and (min-width: 600px) {
+  .r-footer > * {
+  flex: 1;
+  }
+  
+  .features {
+  flex-grow: 2;
+  }
+  
+  .l-footer {
+  flex: 1 0px;
+  }
+  
+  .r-footer {
+  flex: 2 0px;
+  }
+  }
+  
