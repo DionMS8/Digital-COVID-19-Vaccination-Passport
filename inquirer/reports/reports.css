@@ -13,13 +13,13 @@
 .footer h2 {
   font-size: large;
   font-weight: 700;
-}
+} 
 
 body {
   background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  background-size: 120% 70%;
+  background-size: 120% 60%;
 }
 
 .wrapper{
