@@ -14,9 +14,9 @@ body {
       background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
       background-repeat: repeat;
       /* background-attachment: fixed; */
-      background-size: 125% 65%;
+      background-size: 115% 65%;
 }
-
+ 
 #overallContainer {
     background-color: rgb(228, 228, 228);
     height: 120%;
@@ -351,6 +351,7 @@ body {
     width: 55px;
     margin-right: 40px;
     margin-left: -40px;
+    margin-bottom: 8px;
   }
 
 
@@ -376,7 +377,7 @@ body {
       margin-bottom: 2em;
       }
       
-    .footer h2 {
+    .l-footer h2 {
       font-weight: 400;
       font-size: 15px;
       }
