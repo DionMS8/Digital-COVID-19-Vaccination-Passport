@@ -20,6 +20,7 @@ body {
   background-repeat: repeat;
   /* background-attachment: fixed; */
   background-size: 115% 90%;
+  background-size: cover;
 }
 
 .wrapper{

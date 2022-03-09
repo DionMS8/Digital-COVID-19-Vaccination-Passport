@@ -34,6 +34,15 @@ hr {
   margin-left: -40px;
 }
 
+.qr-icon {
+  height: 55px;
+  width: 55px;
+  margin-top: 7px;
+  margin-right: 10px;
+  margin-left: 30px;
+  border: 1px solid black;
+}
+
 .wrapper nav{
   position: relative;
   display: flex;
@@ -43,18 +52,20 @@ hr {
   align-items: center;
   justify-content: space-between;
 }
+
 nav .content{
   display: flex;
   align-items: center;
 }
 
 nav .content .links{
-  margin-left: 120px;
+  margin-left: 100px;
   display: flex;
 }
 
 .content .logo a{
   color: #fff;
+  -webkit-text-stroke: 1.5px black;
   font-size: 30px;
   font-weight: 600;
 }
@@ -248,8 +259,7 @@ nav .content .links{
 /*************************************************************************************************************************************************/
 
 .home-wrapper {
-  background-image: url("https://st.depositphotos.com/1686288/3478/v/600/depositphotos_34786905-stock-illustration-background-black-and-white-polygon.jpg");
-  opacity: 0.85;
+  background-color: rgb(255, 255, 255);
   height: 580px;
   width: 100%;
 }
@@ -265,8 +275,13 @@ nav .content .links{
 
 .title-text h1{
   font-size: 100px;
-  color: #10a083;;
-  -webkit-text-stroke: 3.5px #D00000;
+  background-image: url(../images/flag.png);
+  background-repeat: repeat;
+  -webkit-text-stroke: 2px black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  opacity: 0.98;
 }
 
 .title-text h2{
@@ -297,10 +312,9 @@ nav .content .links{
 
 #home-img1 {
   float: right;
-  width: 500px;
-  height: 450px;
-  margin-top: 60px;
-  margin-right: 50px;
+  width: 520px;
+  height: 490px;
+  margin-top: 80px;
 }
 
 /***************************************************************************************************************************************/
@@ -452,60 +466,16 @@ nav .content .links{
 
 /*****[STATISTICS]*********************************************************************************************************************************************/
 
-.statistics {
+.separator {
   border-top: 2px solid #D00000;
   border-bottom: 2px solid #D00000;
   width: 100%;
-  height: 420px;
+  height: 40px;
   margin: auto;
   margin-top: 0px;
-  background: #59C5B3;
+  background: linear-gradient(#59C5B3, #009D7E);
 }
 
-.statistics h2 {
-  font-size: 50px;
-  text-align: center;
-  color: #009D7E;
-  -webkit-text-stroke: 2px #D00000;
-  margin-top: 10px;
-}
-
-.statistics p {
-  font-size: 20px;
-  color: black;
-  text-align: center;
-  /* margin-left: 10%; */
-}
-
-.column111 {
-  width: 370px;
-  height: 600px;
-  float: left;
-  align-content: center;
-  border: 10px solid black;
-}
-
-.column-222 {
-  width: 420px;
-  height: 400px;
-  float: right;
-  align-content: center;
-  border: 5px solid black;
-}
-
-#home-img3 {
-  float: right;
-  width: 300px;
-  height: 350px;
-  margin-right: 50px;
-  margin-bottom: 40%;
-}
-
-.statistics::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 
 /*****[GET VACCINATED]*******************************************************************************************************************************/
@@ -602,8 +572,9 @@ nav .content .links{
   }
   
 .l-footer {
-  margin-right: 2em;
+  margin-right: 3em;
   margin-bottom: 2em;
+  margin-top: -20px;
   }
 
 .l-footer h1 {
@@ -611,9 +582,13 @@ nav .content .links{
   margin-bottom: 10px;
   }
 
+.l-footer p {
+  text-align: justify;
+  }
+
 .footer h2 {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   }
 
 .logox {
@@ -637,11 +612,12 @@ nav .content .links{
 .r-footer {
   display: flex;
   flex-flow: row wrap;
+  column-gap: 1em;
   }
   
 .r-footer > * {
   flex: 1 50%;
-  margin-right: 1.25em;
+  margin-right: 3em;
   }
   
 .box a {
@@ -657,7 +633,7 @@ nav .content .links{
 .b-footer {
   text-align: center;
   color: rgb(255, 255, 255);
-  padding-top: 50px;
+  padding-top: 10px;
   }
   
 .l-footer p {
