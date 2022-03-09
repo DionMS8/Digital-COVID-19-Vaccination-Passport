@@ -17,7 +17,6 @@ hr {
   margin-left: 3%;
 }
 
-
 .wrapper{
   background: linear-gradient(#009D7E, #59C5B3);
   position: fixed;
@@ -250,6 +249,7 @@ nav .content .links{
 
 .home-wrapper {
   background-image: url("https://st.depositphotos.com/1686288/3478/v/600/depositphotos_34786905-stock-illustration-background-black-and-white-polygon.jpg");
+  opacity: 0.85;
   height: 580px;
   width: 100%;
 }

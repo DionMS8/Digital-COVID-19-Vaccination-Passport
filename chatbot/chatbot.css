@@ -384,10 +384,15 @@ nav .content .links{
   margin-left: 65%;
   margin-bottom: -8px;
   border: 2px solid black;
+  border-bottom: none;
   padding: 25px;
   background: linear-gradient(#009D7E, #59C5B3);
 }
 
+.child-elements {
+  display: flex;
+  flex-flow: row wrap;
+  }
 
 
 
