@@ -1,0 +1,34 @@
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 50%;
+border:1px solid black;
+}
+
+th {
+text-align: left;
+padding: 8px;
+background-color: rgb(203, 245, 19);
+border:1px solid black;
+}
+
+td {
+text-align: left;
+padding: 8px;
+border:1px solid black;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+
+/*
+
+tr => TABLE ROWS
+th => TABLE HEADING
+td => TABLE COLUMN
+
+*/
+
+

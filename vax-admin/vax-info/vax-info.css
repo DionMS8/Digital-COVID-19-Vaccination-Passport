@@ -48,14 +48,14 @@ nav .content{
 }
 
 nav .content .links{
-  margin-left: 60px;
+  margin-left: 10px;
   display: flex;
 }
 
 .content .logo a{
   color: #fff;
-  -webkit-text-stroke: 0.8px black;
-  font-size: 25px;
+  -webkit-text-stroke: 1.5px black;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -68,7 +68,7 @@ nav .content .links{
 .content .links li a,
 .content .links li label{
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   padding: 9px 9px;
   border-radius: 5px;

@@ -55,15 +55,15 @@ nav .content .links{
 
 .content .logo a{
   color: #fff;
-  -webkit-text-stroke: 0.8px black;
-  font-size: 25px;
+  -webkit-text-stroke: 1.5px black;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .content .links li{
   list-style: none;
   line-height: 30px;
-  margin-left: 30px;
+  margin-left: 70px;
 }
 
 .content .links li a,
