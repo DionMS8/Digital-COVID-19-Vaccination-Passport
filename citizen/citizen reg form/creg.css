@@ -8,7 +8,7 @@
 }
 
 body{
-  height: 100vh;
+  /* height: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,19 +17,18 @@ body{
 }
 
 .container{
-  max-width: 1000px;
+  max-width: 1200px;
   width: 100%;
   background-color: #fff;
   padding: 25px 40px;
   border: 2px solid #D00000;
   border-radius: 5px;
-  box-shadow: 10px 10px 15px #D00000;
-  height: 100%;
+  height: 200%;
   margin-bottom: 15px;
 }
 
 .container .title{
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 600;
   position: relative;
 }
@@ -129,6 +128,47 @@ form .input-box span.details{
   background: linear-gradient(#59C5B3, #009D7E);
   }
 
+.docs {
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.docs ul {
+  margin-top: 6px;
+}
+
+.docs li {
+  margin-top: 6px;
+  margin-left: 30px;
+}
+
+form .user-details .pdf-input{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .pdf-input span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .pdf-input input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+  /* background: rgb(226, 222, 222);
+  border: 1px solid rgb(180, 180, 180); */
+}
+
+
+
  @media(max-width: 584px){
  .container{
   max-width: 100%;
@@ -153,3 +193,7 @@ form .user-details .input-box{
     flex-direction: column;
   }
 }
+
+
+
+

@@ -14,14 +14,17 @@
     
     <div class="container">
 
-      <div class="title">Citizen Registration</div>
+      <div class="title">CITIZEN REGISTRATION</div>
 
       <div class="content">
-        <form action="#">
+        <form action="#" method="post" enctype="multipart/form-data">
+          <br>
+          <h3> Personal information: </h3>
+
           <div class="user-details">
             <div class="input-box">
               <span class="details">First Name</span>
-              <input type="text" placeholder="Enter your name" required>
+              <input type="text" placeholder="Enter your first name" required>
             </div>
 
             <div class="input-box">
@@ -58,19 +61,22 @@
               <span class="details">Confirm Password</span>
               <input type="text" placeholder="Confirm your password" required>
             </div>
-
-            <ul>
-              <h2> Acceptable Documents for Proof of Identification: </h2>
+            
+            <ul class="docs">
+              <h3> Please upload one of the following documents for ID verification: </h3><br>
+              <h4> Accepted File types include .pdf and .doc</h4><br>
               <li> Birth Certificate </li>
               <li> Driver's License </li>
               <li> Passport </li>
               <li> National ID </li>             
             </ul>
 
-            <div class="input-box">
-              <span class="details">Document for Proof of Identification</span>
-              <input type="text" placeholder="Enter your date of birth" required>
+
+            <div class="pdf-input">
+              <span class="details"></span>
+              <input type="file" placeholder="Choose file" name="mypdffile" required>
             </div>
+
 
             <div class="input-box">
               <span class="details">Associated Identification Number</span>

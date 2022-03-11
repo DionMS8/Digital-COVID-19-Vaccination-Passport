@@ -1,0 +1,23 @@
+// SUBMITTING THE CONTACT TRACING INFORMATION TO THE MYSQL DATABASE
+
+<?php 
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

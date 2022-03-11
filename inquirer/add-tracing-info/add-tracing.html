@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Inquirer | COVIDVaxTT</title>
+    <title>Inquirer | CoVaxPassTT</title>
 
     <link rel="stylesheet" href="add-tracing.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -34,19 +34,17 @@
 
       </nav>
 
-    </div>
-
-    <br><br><br><br>
+    </div><br><br><br><br>
     
     <div class="container">
 
-      <div class="title">Information for this scenario of QR code validation</div>
-      <br>
+      <div class="title">Information for this scenario of QR code validation</div><br>
+      
       <p class="form-heading">Please enter the information below for contact tracing:</p>
 
       <div class="content">
 
-        <form action="insert-vax.php" method="POST">
+        <form action="insert-tracing-info.php" method="POST">
 
           <div class="user-details">
 
@@ -56,30 +54,26 @@
             
               <div class="input-box">
                 <span class="details">Citizen ID Number</span>
-                <input type="text" placeholder="Enter the citizen's ID number" required>
+                <input type="text" placeholder="Enter the citizen's ID number" name="citizenId" required>
               </div>
 
               <div class="input-box">
                 <span class="details">Company Name</span>
-                <input type="text" placeholder="Enter your company's name" required>
+                <input type="text" placeholder="Enter your company's name" name="companyName" required>
               </div>
               
               <div class="input-box">
                 <span class="details">Company Address</span>
-                <input id="date-input" placeholder="Enter your company's address" required>
+                <input id="date-input" placeholder="Enter your company's address" name="companyAddress" required>
               </div>
 
-            </div>
-
-            <br>
+            </div><br>
 
           </div>
 
           <div class="button">
-            <input type="submit" value="PROCEED">
-          </div>
-
-          <br>
+            <input type="submit" name="submit" value="PROCEED">
+          </div> <br>
 
         </form>
 
@@ -121,9 +115,8 @@
         <li>
           <h2>Contact</h2>
           <ul class="box">
-          <li><a href="#">covaxpass.tt.868@gmail.com</a></li>
-          <li><a href="#">+1(868)-123-4567</a></li>
-          </ul>
+            <li><i class="fa fa-envelope" style="font-size:36px; margin-top: 10px"></i><a href="mailto:covaxpass.tt.868@gmail.com">covaxpass.tt.868@gmail.com</a></li>
+            </ul>
         </li>
 
       </ul>
