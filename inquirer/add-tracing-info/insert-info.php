@@ -2,15 +2,6 @@
 
     // SUBMITTING THE CONTACT TRACING INFORMATION TO THE MYSQL DATABASE
 
-    // DEFINING THE DB CONNECTION VARIABLES
-    $server = "localhost";
-    $username = "root";
-    $password = "";
-    $dbName = "covaxpass_db";
-
-    // CONNECTING TO THE MYSQL DATABASE
-    $conn = mysqli_connect($server, $username, $password, $dbName);
-
     // CHECKING IF THE USER CLICKED THE SUBMIT BUTTON WAS SUCCESSFUL
     if (isset($_POST["submit"])){
 
