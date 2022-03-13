@@ -303,12 +303,12 @@ nav .content .links{
 /*****[TABLE]********************************************************************************************************************************************/
 
 main {
-  background-color: #66d3c0;
+  background-color: #77afa5;
   width: 80%;
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 table {
@@ -361,7 +361,7 @@ tfoot th {
   display: block;
   padding: 10px;
   text-align: center;
-  color: #b8c4d2;
+  color: #ffffff;
 }
 
 .button {
@@ -476,7 +476,7 @@ dd {
   }
 
   tr:nth-child(2n+2) td {
-    background-color: #067a63;
+    background-color: #0f8870;
   }
 
   tfoot th {

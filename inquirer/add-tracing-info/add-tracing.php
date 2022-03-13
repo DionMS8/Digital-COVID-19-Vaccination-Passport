@@ -6,9 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Inquirer | CoVaxPassTT</title>
-
     <link rel="stylesheet" href="add-tracing.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="shortcut icon" type="image/jpg" href="C:\xampp\htdocs\COVAXPASSTT\images\tt-coat-of-arms.png"/>
@@ -44,11 +42,9 @@
 
       <div class="content">
 
-        <form action="insert-tracing-info.php" method="POST">
+        <form action="insert-info.php" method="post">
 
           <div class="user-details">
-
-            <!--<p class="form-heading">Vaccination History</p>-->
             
             <div class="tracing-info">
             
@@ -71,9 +67,13 @@
 
           </div>
 
-          <div class="button">
+          <button class="button" type ="submit" name="submit">PROCEED</button>
+
+          <!-- <div class="button">
             <input type="submit" name="submit" value="PROCEED">
-          </div> <br>
+          </div>  -->
+
+          <br>
 
         </form>
 
