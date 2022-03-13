@@ -55,6 +55,11 @@ body {
     background: linear-gradient(#59C5B3, #009D7E);
 }
 
+#qrcodeButton :hover{
+  transform: scale(0.96); 
+  background: linear-gradient(#59C5B3, #009D7E);
+}
+
 #loadingMessage {
     text-align: center;
     background-color: #eee;

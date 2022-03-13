@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inquirer | CoVaxPassTT</title>
-    <link rel="stylesheet" href="add-tracing.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="shortcut icon" type="image/jpg" href="C:\xampp\htdocs\COVAXPASSTT\images\tt-coat-of-arms.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
   </head>
 
   <body>
@@ -20,7 +20,7 @@
         <input type="checkbox" id="show-menu">
         <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
         <div class="content">
-          <div><img class="tt-icon" src= "C:\xampp\htdocs\COVAXPASSTT\images\tt-coat-of-arms.png"></div>
+          <div><img class="tt-icon" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"></div>
         <div class="logo"><a href="#">CoVaxPassTT | INQUIRER PORTAL</a></div>
 
           <ul class="links">
@@ -67,11 +67,10 @@
 
           </div>
 
-          <button class="button" type ="submit" name="submit">PROCEED</button>
-
-          <!-- <div class="button">
-            <input type="submit" name="submit" value="PROCEED">
-          </div>  -->
+          
+          <div>
+            <button class="btn" type ="submit" name="submit"><span>PROCEED </span></button>
+          </div>
 
           <br>
 
@@ -89,7 +88,7 @@
     <footer footer class="footer">
 
       <div class="l-footer">
-        <h1><img class = "tt-icon" src="C:\xampp\htdocs\COVAXPASSTT\images\tt-coat-of-arms.png" alt=""></h1>
+        <h1><img class = "tt-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png" alt=""></h1>
         <p>CoVaxPassTT is a supporting web-based system for a Digital COVID-19 vaccination passport in Trinidad and Tobago.</p>
       </div>
       <ul class="r-footer">

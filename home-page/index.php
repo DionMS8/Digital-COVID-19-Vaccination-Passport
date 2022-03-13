@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/jpg" href="../images/tt-coat-of-arms.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
   </head>
@@ -22,7 +22,7 @@
         <input type="checkbox" id="show-menu">
         <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
         <div class="content">
-        <div><img class="tt-icon" src= "../images/tt-coat-of-arms.png"></div>
+        <div><img class="tt-icon" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"></div>
         <div class="logo"><a href="">CoVaxPassTT</a></div>
           <ul class="links">
             <li class="active"><a href="#">Home</a></li>
@@ -168,7 +168,7 @@
     <footer footer class="footer">
 
       <div class="l-footer">
-        <h1><img class = "tt-icon" src="../images/tt-coat-of-arms.png" alt=""></h1>
+        <h1><img class = "tt-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png" alt=""></h1>
         <p>CoVaxPassTT is the first instance of a digital vaccination passport in 
           Trinidad and Tobago for use by citizens and authorized officials. 
           These authorized officials include authorized inquirers, vaccine 

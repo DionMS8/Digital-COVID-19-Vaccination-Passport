@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="reports.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="shortcut icon" type="image/jpg" href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
   </head>
 
   <body>
@@ -21,7 +21,7 @@
         <input type="checkbox" id="show-menu">
         <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
         <div class="content">
-          <div><img class="tt-icon" src= "C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png"></div>
+          <div><img class="tt-icon" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"></div>
         <div class="logo"><a href="#">CoVaxPassTT | INQUIRER PORTAL</a></div>
           <ul class="links">
             <li><a href="#">QR Code Scanner</a></li>
@@ -39,29 +39,28 @@
       <div class="title">Report a New Case of False Identity:</div>
 
       <div class="content">
-        <form action="#">
+        <form action="add-report.php" method="post">
           <div class="user-details">
-
             <p class="form-heading">Please enter information about yourself and your company:</p>
 
             <div class="input-box">
               <span class="details">First Name of Inquirer</span>
-              <input type="text" placeholder="Enter your name" required>
+              <input type="text" placeholder="Enter your name" name="inquirerFname" required>
             </div>
 
             <div class="input-box">
               <span class="details">Last Name of Inquirer</span>
-              <input type="text" placeholder="Enter your last name" required>
+              <input type="text" placeholder="Enter your last name" name="inquirerLname" required>
             </div>
 
             <div class="input-box">
               <span class="details">Company Name</span>
-              <input type="text" placeholder="Enter your company name" required>
+              <input type="text" placeholder="Enter your company name" name="companyName" required>
             </div>
 
             <div class="input-box">
               <span class="details">Company Address</span>
-              <input type="text" placeholder="Enter your company address" required>
+              <input type="text" placeholder="Enter your company address" name="companyAddress" required>
             </div>
 
 
@@ -71,25 +70,19 @@
 
             <div class="input-box">
               <span class="details">First Name</span>
-              <input type="text" placeholder="Enter their first name" required>
+              <input type="text" placeholder="Enter their first name" name="reportedFname" required>
             </div>
 
             <div class="input-box">
               <span class="details">Last Name</span>
-              <input type="text" placeholder="Enter their last name" required>
+              <input type="text" placeholder="Enter their last name" name="reportedLname" required>
             </div>
 
 
             <div class="input-box">
               <span class="details">ID Number</span>
-              <input type="text" placeholder="Enter their ID number" required>
+              <input type="text" placeholder="Enter their ID number" name="reportedIdnum" required>
             </div>
-
-            <div class="input-box">
-              <span class="details">Address</span>
-              <input type="text" placeholder="Enter their address" required>
-            </div>
-
             
 
             <br><br><br><br><br>
@@ -98,12 +91,12 @@
 
             <div class="input-box">
               <span class="details">First Name of Citizen</span>
-              <input type="text" placeholder="Enter your name" required>
+              <input type="text" placeholder="Enter their first name" name="citizenFname" required>
             </div>
 
             <div class="input-box">
               <span class="details">Last Name of Citizen</span>
-              <input type="text" placeholder="Enter your last name" required>
+              <input type="text" placeholder="Enter their last name" name="citizenLname" required>
             </div>
 
             <br><br><br><br><br>
@@ -112,17 +105,13 @@
 
             <div class="input-box">
               <span class="details">Report Description:</span>
-              <textarea name="report-description" rows="10" cols="137" required></textarea>
+              <textarea name="description" rows="10" cols="137"  required></textarea>
             </div>
 
-          </div>
-
-          <br>
+          </div><br>
 
           <div class="button">
-
-            <input type="submit" value="SUBMIT">
-
+            <input name="submit" type="submit" value="SUBMIT">
           </div>
 
         </form>
@@ -131,37 +120,33 @@
       
     </div>
 
-    
-
     <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 
         
     <footer footer class="footer">
 
       <div class="l-footer">
-        <h1><img class = "tt-icon" src="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png" alt=""></h1>
+        <h1><img class = "tt-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png" alt=""></h1>
         <p>CoVaxPassTT is a supporting web-based system for a Digital COVID-19 vaccination passport in Trinidad and Tobago.</p>
       </div>
       <ul class="r-footer">
 
-        <li>
-          <h2>Social</h2>
+      <li>
+          <h2>Features</h2>
           <ul class="box">
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-              <li><a href="#">Pinterest</a></li>
-              <li><a href="#">Dribbble</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">QR Code Scanner</a></li>
+            <li><a href="#">Reported Cases</a></li>
             </ul>
         </li>
         
         <li>
-          <h2>Information</h2>
+          <h2>Useful Links</h2>
           <ul class="box">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pricing</a></li>
-          </ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">QR Code Scanner</a></li>
+            <li><a href="#">Reported Cases</a></li>
+            </ul>
         </li>
 
         <li>

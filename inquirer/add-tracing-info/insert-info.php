@@ -1,9 +1,13 @@
 <?php 
 
+    // CONNECTING TO THE MYSQL DATABASE
+    require("../../config/db.php");
+
     // SUBMITTING THE CONTACT TRACING INFORMATION TO THE MYSQL DATABASE
 
     // CHECKING IF THE USER CLICKED THE SUBMIT BUTTON WAS SUCCESSFUL
-    if (isset($_POST["submit"])){
+
+    if(isset($_POST["submit"])){
 
         // CAPTURING THE FORM DATA
         $citizenId = $_POST["citizenId"];
@@ -17,12 +21,11 @@
         $result = mysqli_query($conn, $query) or die("Error: " . mysqli_error($conn));
 
         // CHECKING IF THE QUERY WAS SUCCESSFUL
-        if ($result){
-            
-            header("Location: C:\xampp\htdocs\COVAXPASSTT\inquirer\qr-scanner\index.html");
-        } else {
-            echo "Error: " . mysqli_error($conn);
-        }
+        // if ($result){            
+        //     header("Location: C:\xampp\htdocs\COVAXPASSTT\inquirer\qr-scanner\index.html");
+        // } else {
+        //     echo "Error: " . mysqli_error($conn);
+        // }
 
     }
 
