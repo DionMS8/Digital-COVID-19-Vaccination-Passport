@@ -16,7 +16,7 @@
 } 
 
 body {
-  background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
+  background-color:rgb(221, 217, 170);
   background-repeat: repeat;
   /* background-attachment: fixed; */
   background-size: 120% 50%;

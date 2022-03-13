@@ -18,11 +18,7 @@
 /* background-image:url("https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/bcar_coronavirus_illustration_aqua.jpg?itok=L_uWoje2"); */
 
 body {
-  background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
-  background-repeat: repeat;
-  /* background-attachment: fixed; */
-  background-size: cover;
-  background-position: center;
+  background-color: rgb(221, 217, 170);
 }
 
 .wrapper{

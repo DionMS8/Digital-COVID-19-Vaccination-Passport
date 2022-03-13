@@ -9,8 +9,8 @@
     <title>Citizen | COVIDVaxTT</title>
     <link rel="stylesheet" href="vax-info.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="shortcut icon" type="image/jpg" href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png"/>
+
+    <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
   </head>
 
   <body>
@@ -21,7 +21,7 @@
         <input type="checkbox" id="show-menu">
         <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
         <div class="content">
-          <div><img class="tt-icon" src= "C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png"></div>
+          <div><img class="tt-icon" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"></div>
         <div class="logo"><a href="#">CoVaxPassTT | CITIZEN PORTAL</a></div>
 
           <ul class="links">
@@ -147,7 +147,7 @@
     <footer footer class="footer">
 
       <div class="l-footer">
-        <h1><img class = "tt-icon" src="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png" alt=""></h1>
+        <h1><img class = "tt-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png" alt=""></h1>
         <p>CoVaxPassTT is a supporting web-based system for a Digital COVID-19 vaccination passport in Trinidad and Tobago.</p>
       </div>
       <ul class="r-footer">
