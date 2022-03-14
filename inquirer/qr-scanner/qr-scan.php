@@ -1,14 +1,10 @@
-
-
-
 <html>
 
   <head>
     <meta charset="utf-8">
     <title>Inquirer | QR Code Scanning</title>
     <script src="js/jsQR.js"></script>
-
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
   </head>
 
@@ -27,6 +23,7 @@
             <li class="active"><a href="#">QR Code Scanning</a></li>
             <li><a href="#">Reported Cases</a></li>
           </ul>
+
         </div>
       </nav>
 
@@ -52,7 +49,11 @@
 
       <div class="l-footer">
       <h1><img class = "tt-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png" alt=""></h1>
-      <p>CoVaxPassTT is a supporting web-based system for a Digital COVID-19 vaccination passport in Trinidad and Tobago.</p>
+      <p>CoVaxPassTT is the first instance of a digital vaccination passport in 
+          Trinidad and Tobago for use by citizens and authorized officials. 
+          These authorized officials include authorized inquirers, vaccine 
+          administrators, and Ministry of Health (MOH) administrators.
+        </p>
       </div>
       <ul class="r-footer">
 
@@ -81,11 +82,9 @@
 
       </ul>
 
-      <!--<div class="b-footer">
-
-      <p>All rights reserved by ©CompanyName 2020 </p>
-
-      </div>-->
+      <div class="b-footer">
+        <p>Created by Dion Singh for ECNG 3020</p>
+      </div>
 
       </footer>
 
@@ -94,4 +93,6 @@
   </body>
 
 </html>
+
+
 

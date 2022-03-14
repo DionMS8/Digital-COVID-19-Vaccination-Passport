@@ -244,16 +244,6 @@ nav .content .links{
   .content .logo a{
     font-size: 27px;
   }
-  .wrapper .search-box{
-    max-width: calc(100% - 70px);
-  }
-  .wrapper .search-box .go-icon{
-    width: 30px;
-    right: 0;
-  }
-  .wrapper .search-box input{
-    padding-right: 30px;
-  }
 }
 
 /*************************************************************************************************************************************************/
@@ -572,20 +562,6 @@ nav .content .links{
   flex:  1 100%;
   }
   
-.l-footer {
-  margin-right: 3em;
-  margin-bottom: 2em;
-  margin-top: -20px;
-  }
-
-.l-footer h1 {
-  margin-left: 150px;
-  margin-bottom: 10px;
-  }
-
-.l-footer p {
-  text-align: justify;
-  }
 
 .footer h2 {
   font-weight: 600;
@@ -636,10 +612,22 @@ nav .content .links{
   color: rgb(255, 255, 255);
   padding-top: 10px;
   }
+
+.l-footer {
+  margin-right: 3em;
+  margin-bottom: 2em;
+  margin-top: -20px;
+}
   
+.l-footer h1 {
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+
 .l-footer p {
   padding-right: 20%;
   color: rgb(255, 255, 255);
+  text-align: justify;
   }   
   
   @media screen and (min-width: 600px) {

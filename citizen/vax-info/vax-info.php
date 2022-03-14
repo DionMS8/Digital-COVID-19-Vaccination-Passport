@@ -173,22 +173,17 @@
         <li>
           <h2>Contact</h2>
           <ul class="box">
-          <li><a href="#">covaxpass.tt.868@gmail.com</a></li>
-          <li><a href="#">+1(868)-123-4567</a></li>
-          </ul>
+            <li><i class="fa fa-envelope" style="font-size:36px; margin-top: 10px"></i><a href="mailto:covaxpass.tt.868@gmail.com">covaxpass.tt.868@gmail.com</a></li>
+            </ul>
         </li>
-
       </ul>
 
-      <!--<div class="b-footer">
-
-      <p>All rights reserved by ©CompanyName 2020 </p>
-
-      </div>-->
+      <div class="b-footer">
+        <p>Created by Dion Singh for ECNG 3020 </p>
+      </div>
 
       </footer>
       
-    
     <script src="script.js"></script>
     
   </body>

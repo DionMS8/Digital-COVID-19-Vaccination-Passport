@@ -395,6 +395,18 @@ nav .content .links{
   flex-flow: row wrap;
   }
 
+.child-elements .questions {
+  margin-left: 50px;
+  justify-content: space-between;
+  }
+  
+  .child-elements .questions p {
+    margin-top: 5px;
+   
+    }
+    
+
+
 
 
 

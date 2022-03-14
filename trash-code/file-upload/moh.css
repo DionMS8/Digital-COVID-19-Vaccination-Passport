@@ -1,4 +1,4 @@
-/*****[NAVBAR SECTION]******************************************************************************************************************/
+/*****[FOOTER SECTION]******************************************************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
@@ -10,17 +10,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.footer h2 {
-  font-size: large;
-  font-weight: 700;
-} 
-
 body {
-  background: #fafafa;
-  /* background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
+  background-image: url("covid pattern 1.jpg");
   background-repeat: repeat;
-  background-attachment: fixed; 
-  background-size: 115% 65%; */
+  background: white;
+  
 }
 
 .wrapper{
@@ -56,14 +50,13 @@ nav .content .links{
 .content .logo a{
   color: #fff;
   -webkit-text-stroke: 0.8px black;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 
 .content .links li{
   list-style: none;
   line-height: 30px;
-  margin-left: 30px;
 }
 
 .content .links li a,
@@ -83,11 +76,6 @@ nav .content .links{
 .content .links li a:hover,
 .content .links li label:hover{
   background: #323c4e;
-}
-
-.content .links li.active{
-  text-decoration: 4px underline;
-  text-decoration-color:  #D00000;
 }
 
 .wrapper .search-icon,
@@ -173,17 +161,14 @@ nav .content .links{
   line-height: 30px;
   border-radius: 0px!important;
 }
-
 .content .links ul ul{
   position: absolute;
   top: 0;
   right: calc(-100% + 8px);
 }
-
 .content .links ul li{
   position: relative;
 }
-
 .content .links ul li:hover ul{
   top: 0;
 }
@@ -199,12 +184,6 @@ nav .content .links{
   }
   .content .links li a{
     padding: 8px 13px;
-  }
-  .wrapper .search-box{
-    max-width: calc(100% - 100px);
-  }
-  .wrapper .search-box input{
-    padding: 0 100px 0 15px;
   }
 }
 
@@ -279,211 +258,30 @@ nav .content .links{
   .content .logo a{
     font-size: 27px;
   }
-  .wrapper .search-box{
-    max-width: calc(100% - 70px);
-  }
-  .wrapper .search-box .go-icon{
-    width: 30px;
-    right: 0;
-  }
-  .wrapper .search-box input{
-    padding-right: 30px;
-  }
 }
 
-.tt-icon {
-  height: 55px;
-  width: 55px;
-  margin-right: 40px;
-  margin-left: -40px;
-}
 
-    
   
-/*****[TABLE]********************************************************************************************************************************************/
+/*****[FILE UPLOADER]********************************************************************************************************************************************/
 
-main {
-  background-color: #59C5B3;
-  width: 80%;
-  margin: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  border: 1.5px solid black;
-}
+/*****[TABLE SECTION]*******************************************************************************************************************************/
 
 table {
-  display: block;
-}
-
-tr, td, tbody, tfoot {
-  display: block;
-}
-
-thead {
-  display: none;
-}
-
-tr {
-  padding-bottom: 10px;
-}
-
-td {
-  padding: 10px 10px 0;
-  text-align: center;
-  color: #fff;
-}
-
-td:before {
-  content: attr(data-title);
-  color: #7a91aa;
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  padding-right: 10px;
-  display: block;
-}
-
-table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
   width: 100%;
-}
+  }
 
-th {
+  td, th {
+  border: 1px solid #dddddd;
   text-align: left;
-  font-weight: 700;
-}
-
-thead th {
-  background-color: #202932;
-  color: #fff;
-  border: 1px solid #202932;
-}
-
-tfoot th {
-  display: block;
-  padding: 10px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.button {
-  line-height: 1;
-  display: inline-block;
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-radius: 5px;
-  color: #fff;
   padding: 8px;
-  background-color: #4b908f;
-}
-
-.select {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #28333f;
-}
-.select:before {
-  display: none;
-}
-
-
-
-dl {
-  margin: 0;
-  padding: 0;
-}
-
-dt {
-  font-size: 2.2rem;
-  font-weight: 300;
-}
-
-dd {
-  margin: 0 0 40px 0;
-  font-size: 1.8rem;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ac2647;
-  box-shadow: 0 1px 0 #c52c51;
-}
-
-.close {
-  background: none;
-  padding: 18px;
-  color: #fff;
-  font-weight: 300;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 4px;
-  line-height: 1;
-  font-size: 1.8rem;
-  position: fixed;
-  right: 40px;
-  top: 20px;
-  -moz-transition: border 0.3s linear;
-  -o-transition: border 0.3s linear;
-  -webkit-transition: border 0.3s linear;
-  transition: border 0.3s linear;
-}
-.close:hover, .close:focus {
-  background-color: #a82545;
-  border: 1px solid #a82545;
-}
-
-@media (min-width: 460px) {
-  td {
-    text-align: left;
-  }
-  td:before {
-    display: inline-block;
-    text-align: right;
-    width: 140px;
   }
 
-  .select {
-    padding-left: 160px;
-  }
-}
-@media (min-width: 720px) {
-  table {
-    display: table;
+  tr:nth-child(even) {
+  background-color: #dddddd;
   }
 
-  tr {
-    display: table-row;
-  }
-
-  td, th {
-    display: table-cell;
-  }
-
-  tbody {
-    display: table-row-group;
-  }
-
-  thead {
-    display: table-header-group;
-  }
-
-  tfoot {
-    display: table-footer-group;
-  }
-
-  td {
-    border: 1px solid #28333f;
-  }
-  td:before {
-    display: none;
-  }
-
-  td, th {
-    padding: 10px;
-  }
-
-  tr:nth-child(2n+2) td {
-    background-color: #ffffff;
-  }
-
-  tfoot th {
-    display: table-cell;
-  }
-
-}
 
 
 /*****[FOOTER SECTION]*******************************************************************************************************************************/
@@ -496,21 +294,18 @@ dd {
   color: #fff;
   border-top: 2px solid #D00000;
   background: linear-gradient(#59C5B3, #009D7E);
-  opacity: 0.95
+  opacity: 0.95;
+
+  bottom: 0;
   }
   
 .footer > * {
   flex:  1 100%;
   }
   
-.l-footer {
-  margin-right: 1.25em;
-  margin-bottom: 2em;
-  }
-  
 h2 {
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 20px;
   }
 
 .logox {
@@ -554,18 +349,25 @@ h2 {
 .b-footer {
   text-align: center;
   color: rgb(255, 255, 255);
-  padding-top: 50px;
+  padding-top: 10px;
+  }
+
+.l-footer {
+  margin-right: 3em;
+  margin-bottom: 2em;
+  margin-top: -20px;
+  }
+  
+.l-footer h1 {
+  margin-left: 150px;
+  margin-bottom: 10px;
   }
   
 .l-footer p {
   padding-right: 20%;
   color: rgb(255, 255, 255);
-  }   
-
-.l-footer h1 {
-  margin-left: 150px;
-  margin-bottom: 10px;
-  }
+  text-align: justify;
+  }  
   
   @media screen and (min-width: 600px) {
   .r-footer > * {
@@ -584,4 +386,18 @@ h2 {
   flex: 2 0px;
   }
   }
-  
+
+
+/*****[LOGO STYLING]**********************************************************************************/
+
+.tt-icon {
+  height: 55px;
+  width: 55px;
+  margin-right: 40px;
+  margin-left: -40px;
+}
+
+
+
+
+

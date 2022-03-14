@@ -9,7 +9,6 @@
     <title>Inquirer | COVIDVaxTT</title>
     <link rel="stylesheet" href="reports.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
   </head>
 
@@ -127,7 +126,11 @@
 
       <div class="l-footer">
         <h1><img class = "tt-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png" alt=""></h1>
-        <p>CoVaxPassTT is a supporting web-based system for a Digital COVID-19 vaccination passport in Trinidad and Tobago.</p>
+        <p>CoVaxPassTT is the first instance of a digital vaccination passport in 
+          Trinidad and Tobago for use by citizens and authorized officials. 
+          These authorized officials include authorized inquirers, vaccine 
+          administrators, and Ministry of Health (MOH) administrators.
+        </p>
       </div>
       <ul class="r-footer">
 

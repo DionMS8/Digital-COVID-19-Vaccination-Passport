@@ -1,6 +1,6 @@
 <?php
 // connect to the database
-$conn = mysqli_connect('localhost', 'root', '', 'test');
+$conn = mysqli_connect('localhost', 'root', '', 'covaxpass_db');
 
 // Uploads files
 if (isset($_POST['save'])) { // if save button on the form is clicked
@@ -28,7 +28,7 @@ if (isset($_POST['save'])) { // if save button on the form is clicked
     } else {
         // move the uploaded (temporary) file to the specified destination
         if (move_uploaded_file($pdffile, $destination1) and  move_uploaded_file($file, $destination) ) {
-            $sql = "INSERT INTO users1 (pdf, main_image) VALUES ('$pdffilename','$filename')";
+            $sql = "INSERT INTO moh_upload_files (pdf, main_image) VALUES ('$pdffilename','$filename')";
             if (mysqli_query($conn, $sql)) {
                 echo "File uploaded successfully";
             }
@@ -43,7 +43,7 @@ if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // fetch file to download from database
-    $sql = "SELECT * FROM users1 WHERE file_id=$id";
+    $sql = "SELECT * FROM moh_upload_files WHERE file_id=$id";
     $result = mysqli_query($conn, $sql);
 
     $file = mysqli_fetch_assoc($result);
@@ -67,3 +67,8 @@ if (isset($_GET['id'])) {
     }
 
 }
+
+
+
+
+
