@@ -161,19 +161,19 @@
 
       </ul>
 
-      <!--<div class="b-footer">
-
-      <p>All rights reserved by ©CompanyName 2020 </p>
-
-      </div>-->
+      <div class="b-footer">
+        <p>Created by Dion Singh for ECNG 3020</p>
+      </div>
 
       </footer>
       
-    
     <script src="script.js"></script>
     
   </body>
 
 </html>
+
+
+
 
 

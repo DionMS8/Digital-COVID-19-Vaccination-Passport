@@ -137,7 +137,11 @@
 
     <hr size="2" width="93%" color="white""> 
 
-    <div class="separator"></div>
+    <div class="separator">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
 
     <div class="get-vax-wrapper">
       <div class="column-1111">

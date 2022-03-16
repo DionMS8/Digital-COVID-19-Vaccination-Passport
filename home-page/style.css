@@ -455,18 +455,6 @@ nav .content .links{
   text-align: center;
 }
 
-/*****[SEPARATOR]*********************************************************************************************************************************************/
-
-.separator {
-  border-top: 2px solid #D00000;
-  border-bottom: 2px solid #D00000;
-  width: 100%;
-  height: 40px;
-  margin: auto;
-  margin-top: 0px;
-  background: #59C5B3;
-}
-
 
 
 /*****[GET VACCINATED]*******************************************************************************************************************************/
@@ -647,4 +635,35 @@ nav .content .links{
   flex: 2 0px;
   }
   }
+
+
+
+/*****[SEPARATOR]*********************************************************************************************************************************************/
+
+.separator {
+  border-top: 2px solid #D00000;
+  border-bottom: 2px solid #D00000;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  margin-top: 0px;
+  background: #59C5B3;
+  display: flex;
+}
+
+
+.item {
+  flex-grow: 1;
+  height: 100px;
+  background-color: blue;
+}
+
+.item + .item {
+  margin-left: 2%;
+}
+
+
+
+
+
 
