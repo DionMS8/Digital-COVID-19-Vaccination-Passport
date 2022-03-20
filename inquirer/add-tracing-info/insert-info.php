@@ -14,9 +14,9 @@
         $companyName = $_POST["companyName"];
         $companyAddress = $_POST["companyAddress"];
 
-        // DEFINING THE SQL QUERY
-        $query = "INSERT INTO contact_tracing (`citizen_id`, `company_name`, `company_address`) VALUES ('$citizenId', '$companyName', '$companyAddress')";
-
+        // DEFINING THE SQL QUERY TO INSERT CONTACT TRACING INFORMATION INTO THE DATABASE
+        $query = "INSERT INTO contact_tracing (`citizen_id`, `company_name`, `company_address`) 
+        VALUES ('$citizenId', '$companyName', '$companyAddress')";
         // EXECUTING THE QUERY
         $result = mysqli_query($conn, $query) or die("Error: " . mysqli_error($conn));
 

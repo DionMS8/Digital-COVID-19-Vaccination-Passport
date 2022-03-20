@@ -138,11 +138,15 @@
     <hr size="2" width="93%" color="white""> 
 
     <div class="separator">
+      <!-- <img class="item" src="   " alt=" "/> -->
+      <!-- <img class="item" src="   " alt=" "/> -->
+      <!-- <img class="item" src="   " alt=" "/> -->
       <div class="item"></div>
       <div class="item"></div>
       <div class="item"></div>
     </div>
 
+    
     <div class="get-vax-wrapper">
       <div class="column-1111">
         <img id="vax-form" src="../images/custom-vax-form.PNG" alt=" "/>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&display=swap');
+
+/*------------------------------------------BODY--------------------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 1500;
+    line-height: 2.5em;
+    color: white;
+    background: #ab0f02;
+    background-image: url(https://cdn5.vectorstock.com/i/1000x1000/69/24/seamless-pattern-pokemon-go-pokeball-background-vector-23236924.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.slider {
+
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: orange/* #ab0f02*/;
+    z-index: -1;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 1537px;
+    border: solid;
+    border-width: 5px;
+    border-color: #34224e;
+}
+
+.hero::after {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 1537px;
+
+}
+
+.headline {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 100px;
+    transform: translate(-20%, -70%);
+    color: black;
+    text-shadow: 4px 4px 8px whitesmoke;
+    font-weight: 3000;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #BE202F;
+    overflow: hidden;
+    border-bottom: black;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+  
+/* Change the color of links on hover */
+.topnav a :hover {
+    background-color: lightgrey ;
+    color: black;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: lightgrey;
+    color: black;
+}
+
+
+.pokemon {
+    margin:auto;
+    width: 1300px;
+    height: 400px;
+    text-align: center;
+    padding: 25px;
+    border: 10px solid black;
+    background-color: aliceblue;
+  }
+  
+  .pokemon .name {
+    padding-top: 60px;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(179, 255, 2);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .details {
+      color:black;
+  }
+
+
+#pokeimg {
+    height: 150px;
+    width: 150px;
+}

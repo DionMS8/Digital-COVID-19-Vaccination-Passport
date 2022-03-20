@@ -22,8 +22,12 @@
         
         $description = $_POST["description"];
 
-        // DEFINING THE SQL QUERY
-        $query = "INSERT INTO inquirer_reports (`inq_fname`, `inq_lname`, `company_name`, `company_address`, `reported_fname`, `reported_lname`, `reported_idnum`, `citizen_fname`, `citizen_lname`, `description`) VALUES ('$inquirerFname', '$inquirerLname', '$companyName', '$companyAddress', '$reportedFname', '$reportedLname', '$reportedIdnum', '$citizenFname', '$citizenLname', '".$description."')";
+        // DEFINING THE SQL QUERY TO INSERT REPORT INFORMATION INTO THE DATABASE
+        $query = "INSERT INTO inquirer_reports (`inq_fname`, `inq_lname`, `company_name`, 
+        `company_address`, `reported_fname`, `reported_lname`, `reported_idnum`, `citizen_fname`, 
+        `citizen_lname`, `description`) VALUES ('$inquirerFname', '$inquirerLname', '$companyName', 
+        '$companyAddress', '$reportedFname', '$reportedLname', '$reportedIdnum', '$citizenFname', 
+        '$citizenLname', '".$description."')";
         
         // EXECUTING THE QUERY
         $result = mysqli_query($conn, $query) or die("Error: " . mysqli_error($conn));

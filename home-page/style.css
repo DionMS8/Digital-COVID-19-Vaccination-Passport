@@ -457,7 +457,7 @@ nav .content .links{
 
 
 
-/*****[GET VACCINATED]*******************************************************************************************************************************/
+/*****[GET VACCINATED SECTION]*******************************************************************************************************************************/
 
 .get-vax-wrapper {
   height: 480px;
@@ -556,10 +556,10 @@ nav .content .links{
   font-size: 20px;
   }
 
-.logox {
+/* .logo {
   height: 50px;
   width: 50px;
-}
+} */
 
 .footer ul {
   list-style: none;
@@ -644,7 +644,7 @@ nav .content .links{
   border-top: 2px solid #D00000;
   border-bottom: 2px solid #D00000;
   width: 100%;
-  height: 200px;
+  height: 280px;
   margin: auto;
   margin-top: 0px;
   background: #59C5B3;
@@ -652,10 +652,12 @@ nav .content .links{
 }
 
 
-.item {
+.separator .item {
   flex-grow: 1;
-  height: 100px;
+  height: 80px;
   background-color: blue;
+  margin: 100px;
+ 
 }
 
 .item + .item {
