@@ -1,5 +1,7 @@
 # Digital COVID-19 Vaccination Passport 💉💻
 
+![CoVaxPass Logo - Copy](https://user-images.githubusercontent.com/55777067/159198294-b6046443-22c7-4a4a-b665-2539aa155dbb.PNG)
+
 ## Table of contents
 * [General Information](#general-info)
 * [Technologies](#technologies)
