@@ -30,8 +30,6 @@
             <li><a href="../vaccination-sites/vax-sites.html">Vaccination Sites</a></li>
             <li>
               <a href="#" class="desktop-link">Register</a>
-              <input type="checkbox" id="show-features">
-              <label for="show-features">Features</label>
               <ul>
                 <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\citizen\citizen reg form\index.html">Citizen</a></li>
                 <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\inquirer\inquirer reg form\index.html">Inquirer</a></li>
@@ -41,8 +39,6 @@
             </li>
             <li>
               <a href="#" class="desktop-link">Login</a>
-              <input type="checkbox" id="show-services">
-              <label for="show-services">Services</label>
               <ul>
                 <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\citizen\login form\index.html">Citizen</a></li>
                 <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\inquirer\login form\index.html">Inquirer</a></li>
@@ -95,10 +91,20 @@
 
     <div class="defn-wrapper">
 
-      <h2>WHAT IS COVID-19?</h2>
+      <h2>WHAT IS CoVaxPassTT?</h2>
       <br>
       <div class="covid-defn">
-        <p>COVID-19 is an infectious, respiratory disease caused by a recently discovered coronavirus (SARA-CoV-2). In March 2020, the WHO officially labelled this disease as a pandemic due to its widespread transmission. The majority of persons infected, will experience mild to moderate respiratory illness and recover without the need for special treatment. Elderly persons, and those with underlying medical issues such as cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more susceptible to developing serious illnesses. To prevent and slow transmission of this disease, it is essential that persons educate themselves about this disease and take the necessary precautions listed by the WHO; of washing your hands or using an alcohol-based rub frequently and avoid touching your face. There is currently no vaccine or medical treatment for COVID-19.</p>
+        <p>COVID-19 is an infectious, respiratory disease caused by a recently discovered 
+          coronavirus (SARA-CoV-2). In March 2020, the WHO officially labelled this disease 
+          as a pandemic due to its widespread transmission. The majority of persons infected, 
+          will experience mild to moderate respiratory illness and recover without the need 
+          for special treatment. Elderly persons, and those with underlying medical issues 
+          such as cardiovascular disease, diabetes, chronic respiratory disease, and cancer
+           are more susceptible to developing serious illnesses. To prevent and slow 
+           transmission of this disease, it is essential that persons educate themselves 
+           about this disease and take the necessary precautions listed by the WHO; of 
+           washing your hands or using an alcohol-based rub frequently and avoid touching 
+           your face. There is currently no vaccine or medical treatment for COVID-19.</p>
       </div>
       
       <!--
@@ -221,16 +227,12 @@
 
       </footer>
 
-    
-    <script>
-      function myFunction() {
-         var element = document.body;
-         element.classList.toggle("dark-mode");
-      }
-    </script>
 
   </body>
 
 </html>
+
+
+
 
 

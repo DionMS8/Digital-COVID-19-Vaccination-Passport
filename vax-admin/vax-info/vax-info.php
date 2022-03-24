@@ -53,12 +53,12 @@
           
             <div class="input-box">
               <span class="details">First Name</span>
-              <input type="text" placeholder="Enter first name of citizen" name="citizenFname" required>
+              <input type="text" placeholder="Enter first name of citizen (e.g. John)" name="citizenFname" required>
             </div>
 
             <div class="input-box">
               <span class="details">Last Name</span>
-              <input type="text" placeholder="Enter last name of citizen" name="citizenLname" required>
+              <input type="text" placeholder="Enter last name of citizen (e.g. Doe)" name="citizenLname" required>
             </div>
 
             <div class="input-box">
@@ -78,12 +78,12 @@
 
             <div class="input-box">
               <span class="details">Vaccine Administration Site</span>
-              <input type="text" placeholder="Enter name of vaccination site" name="vaxSite" required>
+              <input type="text" placeholder="Enter name of vaccination site (e.g Siparia Health Centre)" name="vaxSite" required>
             </div>
 
             <div class="input-box">
               <span class="details">Number of Doses Received</span>
-              <input type="text" placeholder="Enter number of doses received" name="numDoses" required>
+              <input type="text" placeholder="Enter number of doses received (e.g 2)" name="numDoses" required>
             </div>
 
 
