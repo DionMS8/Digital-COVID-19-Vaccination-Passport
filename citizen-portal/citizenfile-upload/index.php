@@ -86,7 +86,7 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
               <tr>
               <td><?php echo $file['file_id']; ?></td>
               <td> Citizen's Name </td>
-              <td><?php echo $file['document']; ?></td>
+              <td><?php echo $file['pdf']; ?></td>
               <!-- <td><a href="index.php?id=<?php echo $file['file_id'] ?>">Download</a></td> -->
               </tr>
           <?php endforeach;?>
@@ -139,7 +139,7 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
       </ul>
 
       <div class="b-footer">
-        <p>Created by Dion Singh</p>
+        <p>Created by Dion Singh for ECNG 3020</p>
       </div>
 
     </footer>
