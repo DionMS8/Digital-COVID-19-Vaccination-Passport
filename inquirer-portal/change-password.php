@@ -5,13 +5,13 @@ $msg = "";
 include 'config.php';
 
 if (isset($_GET['reset'])) {
-    if (mysqli_num_rows(mysqli_query($conn, "SELECT * FROM citizens WHERE code='{$_GET['reset']}'")) > 0) {
+    if (mysqli_num_rows(mysqli_query($conn, "SELECT * FROM inquirers WHERE code='{$_GET['reset']}'")) > 0) {
         if (isset($_POST['submit'])) {
             $password = mysqli_real_escape_string($conn, md5($_POST['password']));
             $confirm_password = mysqli_real_escape_string($conn, md5($_POST['confirm-password']));
 
             if ($password === $confirm_password) {
-                $query = mysqli_query($conn, "UPDATE users SET password='{$password}', code='' WHERE code='{$_GET['reset']}'");
+                $query = mysqli_query($conn, "UPDATE inquirers SET password='{$password}', code='' WHERE code='{$_GET['reset']}'");
 
                 if ($query) {
                     header("Location: index.php");
@@ -36,7 +36,7 @@ if (isset($_GET['reset'])) {
 
 <head>
 
-    <title> Citizen Registration | CoVaxPassTT </title>
+    <title> Inquirer Registration | CoVaxPassTT </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
@@ -54,14 +54,13 @@ if (isset($_GET['reset'])) {
 
 
     <section class="w3l-mockup-form">
+
         <div class="container">
          
             <div class="workinghny-form-grid">
 
                 <div class="main-mockup">
-                    <div class="alert-close">
-                        <span class="fa fa-close"></span>
-                    </div>
+
 
                     <div class="w3l_form align-self">
                         <div class="left_grid_info">
@@ -72,8 +71,9 @@ if (isset($_GET['reset'])) {
                     <div class="content-wthree">
                         
                         <h2>Change Password</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
                         <?php echo $msg; ?>
+                        
                         <form action="" method="post">
                             <input type="password" class="password" name="password" placeholder="Enter Your Password" required>
                             <input type="password" class="confirm-password" name="confirm-password" placeholder="Enter Your Confirm Password" required>

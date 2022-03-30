@@ -40,7 +40,7 @@ if (isset($_GET['reset'])) {
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
-    <meta name="keywords" content="Registration Form" />
+    <meta name="keywords" content="Vaccine Administrator Registration Form" />
 
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 
@@ -54,14 +54,12 @@ if (isset($_GET['reset'])) {
 
 
     <section class="w3l-mockup-form">
+
         <div class="container">
          
             <div class="workinghny-form-grid">
 
                 <div class="main-mockup">
-                    <div class="alert-close">
-                        <span class="fa fa-close"></span>
-                    </div>
 
                     <div class="w3l_form align-self">
                         <div class="left_grid_info">
@@ -72,7 +70,7 @@ if (isset($_GET['reset'])) {
                     <div class="content-wthree">
                         
                         <h2>Change Password</h2>
-                        <p></p>
+                    
                         <?php echo $msg; ?>
 
                         <form action="" method="post">

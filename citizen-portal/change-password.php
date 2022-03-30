@@ -11,7 +11,7 @@ if (isset($_GET['reset'])) {
             $confirm_password = mysqli_real_escape_string($conn, md5($_POST['confirm-password']));
 
             if ($password === $confirm_password) {
-                $query = mysqli_query($conn, "UPDATE users SET password='{$password}', code='' WHERE code='{$_GET['reset']}'");
+                $query = mysqli_query($conn, "UPDATE citizens SET password='{$password}', code='' WHERE code='{$_GET['reset']}'");
 
                 if ($query) {
                     header("Location: index.php");
@@ -59,9 +59,6 @@ if (isset($_GET['reset'])) {
             <div class="workinghny-form-grid">
 
                 <div class="main-mockup">
-                    <div class="alert-close">
-                        <span class="fa fa-close"></span>
-                    </div>
 
                     <div class="w3l_form align-self">
                         <div class="left_grid_info">
@@ -72,7 +69,7 @@ if (isset($_GET['reset'])) {
                     <div class="content-wthree">
                         
                         <h2>Change Password</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
                         <?php echo $msg; ?>
                         <form action="" method="post">
                             <input type="password" class="password" name="password" placeholder="Enter Your Password" required>

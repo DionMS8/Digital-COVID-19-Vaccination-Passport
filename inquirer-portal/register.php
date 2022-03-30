@@ -65,7 +65,7 @@
                         // CONFIGURING EMAIL CONTENT
                         $mail->isHTML(true);                                  // SETTING HTML AS THE EMAIL FORMAT
                         $mail->Subject = 'Verify Your Account';
-                        $mail->Body    = '<b><h2>CoVaxPassTT: Please Activate Your Account</h2></b><br><br> You recently created an account as an Authorized Inquirer on CoVaxPassTT with the email: [' . $inquirerEmail . '] <br><br> Copy the link given below and paste into your browser <br><br><b><a href="http://localhost:8080/inquirer-portal/?verification='.$code.'">http://localhost:8080/inquirer-portal/?verification='.$code.'</a></b>';
+                        $mail->Body    = '<b><h2>CoVaxPassTT: Please Activate Your Account</h2></b><br><br> You recently created an account as an Authorized Inquirer on CoVaxPassTT with the email: [' . $inquirerEmail . '] <br><br> Copy the link given below and paste into your browser <br><br><b><a href="http://localhost:8080/covaxpasstt/inquirer-portal/?verification='.$code.'">http://localhost:8080/covaxpasstt/inquirer-portal/?verification='.$code.'</a></b>';
 
                         $mail->send();
                         echo 'Message has been sent';

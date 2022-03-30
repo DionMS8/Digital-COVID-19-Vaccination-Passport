@@ -16,6 +16,22 @@
   </head>
 
   <body>
+
+  <style>
+    .title-text h1{
+      font-size: 100px;
+      background-image: url(./images/flag.png);
+      background-repeat: repeat;
+      -webkit-text-stroke: 2px black;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-font-smoothing: antialiased;
+      opacity: 0.98;
+    }
+  </style>
+
+
+
     <div class="wrapper">
       <nav>
         <input type="checkbox" id="show-search">
@@ -40,10 +56,10 @@
             <li>
               <a href="#" class="desktop-link">Login</a>
               <ul>
-                <li><a href="./citizen-portal/login.php">Citizen</a></li>
-                <li><a href="./inquirer-portal/login.php">Inquirer</a></li>
-                <li><a href="./vax-portal/login.php">Vaccine Administrator</a></li>
-                <li><a href="./moh-portal/login.php">MOH Administrator</a></li>
+                <li><a href="./citizen-portal/index.php">Citizen</a></li>
+                <li><a href="./inquirer-portal/index.php">Inquirer</a></li>
+                <li><a href="./vax-portal/index.php">Vaccine Administrator</a></li>
+                <li><a href="./moh-portal/index.php">MOH Administrator</a></li>
                 <!--<li>
                   <a href="#" class="desktop-link">More Items</a>
                   <input type="checkbox" id="show-items">

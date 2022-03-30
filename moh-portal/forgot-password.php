@@ -47,7 +47,7 @@ if (isset($_POST['submit'])) {
                 //Content
                 $mail->isHTML(true);                                  
                 $mail->Subject = 'Request for Password Reset';
-                $mail->Body    = '<b><h2>CoVaxPassTT: Please Verify Your Account</h2></b><br><br> A request for password reset was made on CoVaxPassTT with the email: [' . $email . '] <br><br> Copy the link given below and paste into your browser <br><br><b><a href="http://localhost:8080/citizen-portal/change-password.php?reset='.$code.'">http://localhost:8080/citizen-portal/change-password.php?reset='.$code.'</a></b>';
+                $mail->Body    = '<b><h2>CoVaxPassTT: Please Verify Your Account</h2></b><br><br> A request for password reset was made on CoVaxPassTT with the email: [' . $email . '] <br><br> Copy the link given below and paste into your browser <br><br><b><a href="http://localhost:8080/covaxpasstt/moh-portal/change-password.php?reset='.$code.'">http://localhost:8080/covaxpasstt/moh-portal/change-password.php?reset='.$code.'</a></b>';
 
                 $mail->send();
                 echo 'Message has been sent';
