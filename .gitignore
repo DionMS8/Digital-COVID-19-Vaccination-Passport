@@ -1,6 +1,8 @@
 # Compiled files
 dist/
 
+vendor
+
 # Config file
 config/config.js
 

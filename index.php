@@ -31,19 +31,19 @@
             <li>
               <a href="#" class="desktop-link">Register</a>
               <ul>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\citizen\citizen reg form\index.html">Citizen</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\inquirer\inquirer reg form\index.html">Inquirer</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\vax-admin\vax-admin reg form\index.html">Vaccine Administrator</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\moh-admin\moh-admin reg form\index.html">MOH Administrator</a></li>
+                <li><a href="./citizen-portal/register.php">Citizen</a></li>
+                <li><a href="./inquirer-portal/register.php">Inquirer</a></li>
+                <li><a href="./vax-portal/register.php">Vaccine Administrator</a></li>
+                <li><a href="./moh-portal/register.php">MOH Administrator</a></li>
               </ul>
             </li>
             <li>
               <a href="#" class="desktop-link">Login</a>
               <ul>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\citizen\login form\index.html">Citizen</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\inquirer\login form\index.html">Inquirer</a></li>
-                <li><a href="#">Vaccine Administrator</a></li>
-                <li><a href="#">MOH Administrator</a></li>
+                <li><a href="./citizen-portal/login.php">Citizen</a></li>
+                <li><a href="./inquirer-portal/login.php">Inquirer</a></li>
+                <li><a href="./vax-portal/login.php">Vaccine Administrator</a></li>
+                <li><a href="./moh-portal/login.php">MOH Administrator</a></li>
                 <!--<li>
                   <a href="#" class="desktop-link">More Items</a>
                   <input type="checkbox" id="show-items">
