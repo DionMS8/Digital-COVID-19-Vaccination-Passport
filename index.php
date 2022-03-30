@@ -58,7 +58,7 @@
             </li>
             <li><a href="#">FAQ</a></li>
             <!--<li><button onclick="myFunction()">Toggle dark mode</button></li>--> 
-            <div><img class="qr-icon" src= "../images/qr-icon.png"></div>   
+            <div><img class="qr-icon" src= "./images/qr-icon.png"></div>   
           </ul>
         </div>
 
@@ -81,7 +81,7 @@
         <div class="column-2">
           <!--<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player id="home-img1" src="https://assets1.lottiefiles.com/packages/lf20_0r0csU.json"  background="transparent"  speed="3"   loop autoplay></lottie-player>-->
-          <img id="home-img1" src="../images/logo-card.jpg" alt=" "/>
+          <img id="home-img1" src="./images/logo-card.jpg" alt=" "/>
         </div>
         
       </div>
@@ -147,15 +147,15 @@
       <!-- <img class="item" src="   " alt=" "/> -->
       <!-- <img class="item" src="   " alt=" "/> -->
       <!-- <img class="item" src="   " alt=" "/> -->
+      <!-- <div class="item"></div>
       <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
+      <div class="item"></div> -->
     </div>
 
     
     <div class="get-vax-wrapper">
       <div class="column-1111">
-        <img id="vax-form" src="../images/custom-vax-form.PNG" alt=" "/>
+        <img id="vax-form" src="./images/custom-vax-form.PNG" alt=" "/>
       </div>
 
       <div class="column-2222">
@@ -169,8 +169,8 @@
           <p>•	Community Vaccination Outreach Activities</p>
           <p>•	Home Visits ( for shut-in persons only)</p>
           <br>
-          <p> COVID-19 Vaccine Pre-Registration Form for 1st Dose</p><h3><a id="download1" href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\home page\covid-docs\MoH Public Pre Registration Form for COVID19 Vaccine 1.pdf" target="blank">Download</a></h3>
-          <p> COVID-19 Vaccine Pre-Registration Form for 2nd Dose</p><h3><a id="download1" href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\home page\covid-docs\COVID-19 Vaccination Pre-Registration Form - 2nd Dose.pdf" target="blank">Download</a></h3>
+          <p> COVID-19 Vaccine Pre-Registration Form for 1st Dose</p><h3><a id="download1" href="./covid-docs/MoH Public Pre Registration Form for COVID19 Vaccine 1.pdf" target="blank">Download</a></h3>
+          <p> COVID-19 Vaccine Pre-Registration Form for 2nd Dose</p><h3><a id="download1" href="./covid-docs/COVID-19 Vaccination Pre-Registration Form - 2nd Dose.pdf" target="blank">Download</a></h3>
          
         </div>
       </div>

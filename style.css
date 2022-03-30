@@ -265,7 +265,7 @@ nav .content .links{
 
 .title-text h1{
   font-size: 100px;
-  background-image: url(../images/flag.png);
+  background-image: url(./images/flag.png);
   background-repeat: repeat;
   -webkit-text-stroke: 2px black;
   -webkit-background-clip: text;
