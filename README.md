@@ -14,15 +14,15 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ## Technologies
 
-![image](https://user-images.githubusercontent.com/55777067/150394320-697f031a-572a-4995-b079-8bf11c7580b4.png)
 
 - HTML5 & CSS3
 - Javascript (ES6)
-- React & Redux
-- Node & Express
-- MongoDB & Mongoose
+- PHP
+- MySQL
+- PHPMyAdmin
 - QRCode.js
-- Instascan.js
+- jsQR
+- jsPDF
 
 ## Site Map
 
