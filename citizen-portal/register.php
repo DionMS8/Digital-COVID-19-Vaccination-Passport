@@ -7,7 +7,7 @@
 
     session_start();
     if (isset($_SESSION['SESSION_EMAIL'])) {
-        header("Location: welcome.php");
+        header("Location: ./profile/profile.php.php");
         die();
     }
 

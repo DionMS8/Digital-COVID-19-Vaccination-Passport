@@ -6,6 +6,32 @@
     }
 
     include '../config.php';
+
+    if (isset($_POST['submit'])) {
+      $citizenNewFname = mysqli_real_escape_string($conn, $_POST['citizenNewFname']);
+      $citizenNewLname = mysqli_real_escape_string($conn, $_POST['citizenNewLname']);
+      $citizenNewEmail = mysqli_real_escape_string($conn, $_POST['citizenNewEmail']);
+      $citizenNewPhNum = mysqli_real_escape_string($conn, $_POST['citizenNewPhNum']);
+      $citizenNewDob = mysqli_real_escape_string($conn, $_POST['citizenNewDob']);
+      $citizenNewAddress = mysqli_real_escape_string($conn, $_POST['citizenNewAddress']);
+
+      // DEFINING THE SQL QUERY TO INSERT REPORT INFORMATION INTO THE DATABASE
+      $query = "UPDATE citizens SET `citizen_fname` = '$citizenNewFname', 
+      `citizen_lname` = '$citizenNewLname', `citizen_email` = '$citizenNewEmail', 
+      `citizen_phnum` = '$citizenNewPhNum', `citizen_dob` = '$citizenNewDob', 
+      `citizen_address` = '$citizenNewAddress' WHERE `citizen_email`='{$_SESSION['SESSION_EMAIL']}'";
+
+      // EXECUTING THE QUERY
+      $result = mysqli_query($conn, $query) or die("Error: " . mysqli_error($conn));
+
+      if ($result) { 
+              
+        header("Location: ./profile.php");
+
+        } else { 
+        echo "Error: " . mysqli_error($conn);
+        }
+    }
 ?>
 
 
@@ -80,6 +106,7 @@
             <li class="active"><a href="#">Profile</a></li>
             <li><a href="../vax-history/vax-info.php">Vaccination History</a></li>
             <li><a href="../tracing/tracing.php">Contact Tracing</a></li>
+            <li><a href="#">File Upload</a></li>
             <li><a href="../logout.php">Logout</a></li>
           </ul>
         </div>
@@ -91,7 +118,7 @@
 
     <div class="profile">
 
-        <form action="" method = "POST">
+      <form action="" method = "POST">
 
       <?php
 
@@ -99,31 +126,28 @@
 
         if (mysqli_num_rows($query) > 0) {
             $row = mysqli_fetch_assoc($query);
+            
+            ?>
+
+            <label><b>First Name: </b></label> <input type='text' name='citizenNewFname' value= <?php echo $row['citizen_fname'] ?> required><br><br>
+            <label><b>Last Name: </b></label> <input type='text' name='citizenNewLname' value= <?php echo $row['citizen_lname'] ?>  required><br><br>
+            <label><b>Email: </b></label> <input type='text' name='citizenNewEmail' value= <?php echo $row['citizen_email'] ?> required><br><br>
+            <label><b>Phone Number: </b></label> <input type='text' name='citizenNewPhNum' value= <?php echo $row['citizen_phnum'] ?> required><br><br>
+            <label><b>Date of Birth: </b></label> <input type='text' name='citizenNewDob' value= <?php echo $row['citizen_dob'] ?> required><br><br>
+            <label><b>Address: </b></label> <input type='text' name='citizenNewAddress' value= <?php echo $row['citizen_address'] ?> required>
+            <button style = "margin-top: 20px; background: #009D7E;" name="submit" class="btn" type="submit">Confirm Update</button>
 
 
-            echo "<label><b>First Name: </b></label> <input type='text' name='citizenFname' value='" . $row['citizen_fname'] . "' required><br><br>";
-            echo "<label><b>Last Name: </b></label> <input type='text' name='citizenFname' value='" . $row['citizen_lname'] . "' required><br><br>";
-            echo "<label><b>Email: </b></label> <input type='text' name='citizenFname' value='" . $row['citizen_email'] . "' required><br><br>";
-            echo "<label><b>Phone Number: </b></label> <input type='text' name='citizenFname' value='" . $row['citizen_phnum'] . "' required><br><br>";
-            echo "<label><b>Date of Birth: </b></label> <input type='text' name='citizenFname' value='" . $row['citizen_dob'] . "' required><br><br>";
-            echo "<label><b>Address: </b></label> <input type='text' name='citizenFname' value='" . $row['citizen_address'] . "' required>";
-
-            // echo "<b>Last Name: </b>" . $row['citizen_lname'] . "<br><br>";
-            // echo "<b>Email: </b>" . $row['citizen_email'] . "<br><br>";
-            // echo "<b>Phone Number: </b>" . $row['citizen_phnum'] . "<br><br>";
-            // echo "<b>Date of Birth: </b>" . $row['citizen_dob'] . "<br><br>";
-            // echo "<b>Address: </b>" . $row['citizen_address'];
-
+            <?php
         }
 
-      ?>       
+        ?>
+     
       </form>
       
     </div>
     
     <br><br>
-
-    <button name="submit" name="submit" class="btn">Update Profile</button>
 
 
     <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>

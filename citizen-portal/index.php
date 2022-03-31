@@ -105,7 +105,7 @@
                         </form>
 
                         <div class="social-icons">
-                            <p>Create Account! <a href="register.php">Register</a>.</p>
+                            <p>Not Registered? <a href="register.php">Register</a>.</p>
                         </div>
 
                     </div>

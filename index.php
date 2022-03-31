@@ -60,16 +60,6 @@
                 <li><a href="./inquirer-portal/index.php">Inquirer</a></li>
                 <li><a href="./vax-portal/index.php">Vaccine Administrator</a></li>
                 <li><a href="./moh-portal/index.php">MOH Administrator</a></li>
-                <!--<li>
-                  <a href="#" class="desktop-link">More Items</a>
-                  <input type="checkbox" id="show-items">
-                  <label for="show-items">More Items</label>
-                  <ul>
-                    <li><a href="#">Sub Menu 1</a></li>
-                    <li><a href="#">Sub Menu 2</a></li>
-                    <li><a href="#">Sub Menu 3</a></li>
-                  </ul>
-                </li>-->
               </ul>
             </li>
             <li><a href="#">FAQ</a></li>
@@ -95,8 +85,6 @@
         </div>
   
         <div class="column-2">
-          <!--<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-          <lottie-player id="home-img1" src="https://assets1.lottiefiles.com/packages/lf20_0r0csU.json"  background="transparent"  speed="3"   loop autoplay></lottie-player>-->
           <img id="home-img1" src="./images/logo-card.jpg" alt=" "/>
         </div>
         
@@ -107,7 +95,7 @@
 
     <div class="defn-wrapper">
 
-      <h2>WHAT IS CoVaxPassTT?</h2>
+      <h2>WHAT IS COVID-19?</h2>
       <br>
       <div class="covid-defn">
         <p>COVID-19 is an infectious, respiratory disease caused by a recently discovered 
@@ -123,12 +111,6 @@
            your face. There is currently no vaccine or medical treatment for COVID-19.</p>
       </div>
       
-      <!--
-      <div class="column-222">
-        <img id="home-img3" src="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\undraw_Business_plan_re_0v81.svg" alt=" "/>
-      </div>
-    -->
-
     </div>
 
 

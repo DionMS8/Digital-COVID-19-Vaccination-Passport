@@ -271,6 +271,9 @@
                   format: [190, 80]
               });
 
+              pdf.addImage(base64Image, 'png', 0, 0, 40, 40);
+              pdf.save(`${citizenFullName}_CoVaxPassTT_Certificate.pdf`);
+
               pdf.setFontSize(15);
               pdf.text('CoVaxPassTT COVID-19 Vaccination Certificate', 43, 10);
 

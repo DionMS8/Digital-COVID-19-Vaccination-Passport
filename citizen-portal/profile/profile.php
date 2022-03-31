@@ -82,6 +82,7 @@
             <li class="active"><a href="#">Profile</a></li>
             <li><a href="../vax-history/vax-info.php">Vaccination History</a></li>
             <li><a href="../tracing/tracing.php">Contact Tracing</a></li>
+            <li><a href="#">File Upload</a></li>
             <li><a href="../logout.php">Logout</a></li>
           </ul>
         </div>

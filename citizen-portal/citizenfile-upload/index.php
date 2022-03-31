@@ -11,7 +11,7 @@
 
 <?php include 'upload.php';
 
-$sql = "SELECT * FROM vax_files";
+$sql = "SELECT * FROM citizen_uploads";
 $result = mysqli_query($conn, $sql);
 
 $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -25,7 +25,7 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vaccine Administrator | CoVaxPassTT</title>
+    <title>Citizen Portal | CoVaxPassTT</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
@@ -49,10 +49,12 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
       <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
       <div class="content">
       <div><img class="tt-icon" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"></div>
-      <div class="logo"><a href="#">CoVaxPassTT | VACCINE ADMINISTRATOR </a></div>
+      <div class="logo"><a href="#">CoVaxPassTT | CITIZEN PORTAL </a></div>
         <ul class="links">
-            <li><a href="../vax-info/vax-info.php">Vaccination Information</a></li>
-            <li class="active"><a href="#">Upload Files</a></li>
+            <li><a href="../profile/profile.php">Profile</a></li>
+            <li><a href="../vax-history/vax-info.php">Vaccination History</a></li>
+            <li><a href="#">Contact Tracing</a></li>
+            <li class="active"><a href="#">File Upload</a></li>
             <li><a href="../logout.php">Logout</a></li>
         </ul>
       </div>
@@ -65,7 +67,7 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
       <div class="row1">
         <form action="index.php" method="post" enctype="multipart/form-data" >
-          <h3>Please upload a file for the Citizen's ID:</h3><br>
+          <h3>Please upload a file (e.g Utility Bill for Proof of Address):</h3><br>
         PDF:   <input type="file" name="mypdffile"> <br><br><br>
           <button style = "width: 100px; padding: 5px; background: #59C5B3;" type="submit" name="save">Upload</button>
         </form>
@@ -77,15 +79,13 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <table>
           <thead>
               <th>Entry ID</th>
-              <th>Citizen Name</th>
-              <th>ID Document</th>
+              <th>File Name</th>
               <!-- <th>Download File</th> -->
           </thead>
           <tbody>
           <?php foreach ($files as $file): ?>
               <tr>
               <td><?php echo $file['file_id']; ?></td>
-              <td> Citizen's Name </td>
               <td><?php echo $file['pdf']; ?></td>
               <!-- <td><a href="index.php?id=<?php echo $file['file_id'] ?>">Download</a></td> -->
               </tr>
@@ -115,18 +115,18 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
           <h2>Features</h2>
           <ul class="box">
             <li><a href="#">Profile</a></li>
-            <li><a href="#">QR Code Scanner</a></li>
-            <li><a href="#">Reported Cases</a></li>
-            </ul>
+            <li><a href="#">Vaccination History</a></li>
+            <li><a href="#">Contact Tracing</a></li>
+          </ul>
         </li>
         
         <li>
           <h2>Useful Links</h2>
           <ul class="box">
             <li><a href="#">Profile</a></li>
-            <li><a href="#">QR Code Scanner</a></li>
-            <li><a href="#">Reported Cases</a></li>
-            </ul>
+            <li><a href="#">Vaccination History</a></li>
+            <li><a href="#">Contact Tracing</a></li>
+          </ul>
         </li>
 
         <li>
@@ -139,7 +139,7 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
       </ul>
 
       <div class="b-footer">
-        <p>Created by Dion Singh for ECNG 3020</p>
+        <p>Created by Dion Singh</p>
       </div>
 
     </footer>
@@ -147,11 +147,5 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </body>
 
 </html>
-
-
-
-
-
-
 
 

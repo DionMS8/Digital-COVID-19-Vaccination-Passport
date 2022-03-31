@@ -7,13 +7,6 @@
 
     include '../config.php';
 
-    // $query = mysqli_query($conn, "SELECT * FROM citizens WHERE citizen_email='{$_SESSION['SESSION_EMAIL']}'");
-
-    // if (mysqli_num_rows($query) > 0) {
-    //     $row = mysqli_fetch_assoc($query);
-
-    //     echo "Welcome " . $row['citizen_fname'] . " <a href='../logout.php'>Logout</a>";
-    // }
 ?>
 
 
@@ -51,6 +44,7 @@
             <li><a href="../profile/profile.php">Profile</a></li>
             <li><a href="../vax-history/vax-info.php">Vaccination History</a></li>
             <li class="active"><a href="#">Contact Tracing</a></li>
+            <li><a href="#">File Upload</a></li>
             <li><a href="../logout.php">Logout</a></li>
           </ul>
         </div>
@@ -110,7 +104,9 @@ tr:nth-child(even) {
 
 <?php
 
-$sql = "SELECT company_name, company_address, date_time FROM contact_tracing WHERE citizen_email='{$_SESSION['SESSION_EMAIL']}'";
+$sql = "SELECT company_name, company_address, date_time 
+        FROM contact_tracing 
+        WHERE citizen_email='{$_SESSION['SESSION_EMAIL']}'";
 
 $result = $conn->query($sql);
 
@@ -124,14 +120,14 @@ if ($result->num_rows > 0) {
 
   echo "</table>";
 
-} else { echo "You have not presented your QR code at any locations yet.<br><br>"; }
+} else { echo "You have not presented your QR code at any locations yet."; }
 
 
 ?>
 
 </table>
            
-
+<br><br>
 
 
 

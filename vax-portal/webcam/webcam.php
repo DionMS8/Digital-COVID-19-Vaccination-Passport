@@ -1,11 +1,11 @@
 <?php
-    // session_start();
-    // if (!isset($_SESSION['SESSION_EMAIL'])) {
-    //     header("Location: ../index.php");
-    //     die();
-    // }
+    session_start();
+    if (!isset($_SESSION['SESSION_EMAIL'])) {
+        header("Location: ../index.php");
+        die();
+    }
 
-    // include '../config.php';
+    include '../config.php';
 ?>
 
 
@@ -147,9 +147,8 @@
       </footer>
       
 
-      <!-- Configuring and Attaching Camera -->
+      <!-- CONFIGURING DEVICE CAMERA -->
       <script>
-
         Webcam.set({
         width: 380,
         height: 300,
@@ -157,40 +156,28 @@
         jpeg_quality: 90
         });
 
+        // ATTACHING THE DEVICE CAMERA
         Webcam.attach( '#my_camera' );
 
-        // preloading audio clip for shutter sound effect
+        // PRELOADING AN AUDIO CLIP FOR A SHUTTER SOUND EFFECT
         var shutter = new Audio();
         shutter.autoplay = true;
         shutter.src = navigator.userAgent.match(/Firefox/) ? 'shutter.ogg' : 'shutter.mp3';
 
         function saveSnap() {
-            // playing the shutter sound effect
+            // PLAYING THE SHUTTER SOUND EFFECT
             shutter.play();
-
+            // CAPTURING AN IMAGE OF THE CITIZEN
             Webcam.snap( function(data_uri) {
               $(".image-tag").val(data_uri); 
               document.getElementById('results').innerHTML = 
               '<h2>Citizen Image:</h2>' + '<img id = "results" src="'+data_uri+'"/>';
             });
-
-            // Webcam.reset();
-
-            // var base64image = document.getElementById("results").src;
-            // Webcam.upload(base64image, 'upload.php', function(code, text) {
-            //     alert('Save successfully');
-            //     document.location.href = "image.php";
-            // });
-
         }
       </script>
 
   </body>
 
 </html>
-
-
-
-
 
 

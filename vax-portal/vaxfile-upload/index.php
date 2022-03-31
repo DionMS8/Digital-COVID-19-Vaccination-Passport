@@ -81,15 +81,17 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
               <th>ID Document</th>
               <!-- <th>Download File</th> -->
           </thead>
+
           <tbody>
-          <?php foreach ($files as $file): ?>
-              <tr>
-              <td><?php echo $file['file_id']; ?></td>
-              <td> Citizen's Name </td>
-              <td><?php echo $file['document']; ?></td>
-              <!-- <td><a href="index.php?id=<?php echo $file['file_id'] ?>">Download</a></td> -->
-              </tr>
-          <?php endforeach;?>
+
+            <?php foreach ($files as $file): ?>
+                <tr>
+                <td><?php echo $file['file_id']; ?></td>
+                <td> Citizen's Name </td>
+                <td><?php echo $file['document']; ?></td>
+                <!-- <td><a href="index.php?id=<?php echo $file['file_id'] ?>">Download</a></td> -->
+                </tr>
+            <?php endforeach;?>
 
           </tbody>
 
