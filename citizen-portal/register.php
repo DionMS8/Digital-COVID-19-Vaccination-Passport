@@ -36,7 +36,11 @@
             $msg = "<div class='alert alert-danger'>{$citizenEmail} - Sorry, this email address is already being used.</div>";
         } else {
             if ($password === $confirm_password) {
-                $sql = "INSERT INTO citizens (citizen_fname, citizen_lname, citizen_email, citizen_phnum, citizen_dob, citizen_address, password, code) VALUES ('{$citizenFname}', '{$citizenLname}', '{$citizenEmail}', '{$citizenPhNum}', '{$citizenDob}', '{$citizenAddress}','{$password}', '{$code}')";
+                $sql = "INSERT INTO citizens (citizen_fname, citizen_lname, citizen_email, citizen_phnum, 
+                citizen_dob, citizen_address, password, code) VALUES ('{$citizenFname}', '{$citizenLname}', 
+                '{$citizenEmail}', '{$citizenPhNum}', '{$citizenDob}', '{$citizenAddress}','{$password}', 
+                '{$code}')";
+                
                 $result = mysqli_query($conn, $sql);
 
 

@@ -1,6 +1,6 @@
 <?php include 'upload.php';
 
-$sql = "SELECT * FROM moh_upload_files";
+$sql = "SELECT * FROM moh_uploads";
 $result = mysqli_query($conn, $sql);
 
 $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -70,15 +70,14 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
               <th>ID</th>
               <th>PDF Filename</th>
               <th>Image Filename</th>
-              <th>Download Filename</th>
           </thead>
           <tbody>
+
           <?php foreach ($files as $file): ?>
               <tr>
               <td><?php echo $file['file_id']; ?></td>
               <td><?php echo $file['pdf']; ?></td>
               <td><?php echo $file['main_image']; ?></td>
-              <td><a href="index.php?id=<?php echo $file['file_id'] ?>">Download</a></td>
               </tr>
           <?php endforeach;?>
 
@@ -105,19 +104,19 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
       <li>
           <h2>Features</h2>
           <ul class="box">
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">QR Code Scanner</a></li>
-            <li><a href="#">Reported Cases</a></li>
+          <li><a href="#">Authorized Inquirers</a></li>
+            <li><a href="#">Citizens</a></li>
+            <li><a href="#">Vaccine Administrators</a></li>
             </ul>
         </li>
         
         <li>
           <h2>Useful Links</h2>
           <ul class="box">
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">QR Code Scanner</a></li>
-            <li><a href="#">Reported Cases</a></li>
-            </ul>
+            <li><a href="#">Inquirer Reports</a></li>
+            <li><a href="#">Upload Files</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
         </li>
 
         <li>
@@ -130,7 +129,7 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
       </ul>
 
       <div class="b-footer">
-        <p>Created by Dion Singh for ECNG 3020</p>
+        <p>Created by Dion Singh</p>
       </div>
 
     </footer>
@@ -138,9 +137,6 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </body>
 
 </html>
-
-
-
 
 
 
