@@ -41,20 +41,22 @@ nav .content{
 }
 
 nav .content .links{
-  margin-left: 30px;
+  margin-left: 10px;
   display: flex;
 }
+
 
 .content .logo a{
   color: #fff;
   -webkit-text-stroke: 0.8px black;
-  font-size: 24px;
+  font-size: 27px;
   font-weight: 600;
 }
 
 .content .links li{
   list-style: none;
   line-height: 30px;
+  margin-left: 26px;
 }
 
 .content .links li a,

@@ -17,10 +17,6 @@
 
 body {
   background: #fafafa;
-  /* background-image:url("https://www.publichealthpost.org/wp-content/uploads/2020/11/5.png");
-  background-repeat: repeat;
-  background-attachment: fixed; 
-  background-size: 115% 65%; */
 }
 
 .wrapper{
@@ -63,7 +59,6 @@ nav .content .links{
 .content .links li{
   list-style: none;
   line-height: 30px;
-  margin-left: 30px;
 }
 
 .content .links li a,

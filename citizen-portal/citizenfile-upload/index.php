@@ -68,7 +68,9 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
       <div class="row1">
         <form action="index.php" method="post" enctype="multipart/form-data" >
           <h3>Please upload a file (e.g Utility Bill for Proof of Address):</h3><br>
-        PDF:   <input type="file" name="mypdffile"> <br><br><br>
+          <p>If the utility bill is in another person's name, a Letter of Authorization is required along with a copy of the person's ID.</p>
+          <br>
+          PDF:   <input type="file" name="mypdffile"> <br><br><br>
           <button style = "width: 100px; padding: 5px; background: #59C5B3;" type="submit" name="save">Upload</button>
         </form>
       </div>

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FAQ | CoVaxPassTT</title>
-    <!--LINKING CSS AND JS FILES-->
     <link rel="stylesheet" href="faq.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -26,33 +25,28 @@
         <div><img class="tt-icon" src= "../images/tt-coat-of-arms.png"></div>
         <div class="logo"><a href="#">CoVaxPassTT</a></div>
           <ul class="links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\vaccination-sites\vax-sites.html">Vaccination Sites</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../about-page/about.php">About</a></li>
+            <li><a href="../vaccination-sites/vax-sites.php">Vaccination Sites</a></li>
             <li>
               <a href="#" class="desktop-link">Register</a>
-              <input type="checkbox" id="show-features">
-              <label for="show-features">Features</label>
               <ul>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\citizen\citizen reg form\index.html">Citizen</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\inquirer\inquirer reg form\index.html">Inquirer</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\vax-admin\vax-admin reg form\index.html">Vaccine Administrator</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\moh-admin\moh-admin reg form\index.html">MOH Administrator</a></li>
+                <li><a href="../citizen-portal/register.php">Citizen</a></li>
+                <li><a href="../inquirer-portal/register.php">Inquirer</a></li>
+                <li><a href="../vax-portal/register.php">Vaccine Administrator</a></li>
+                <li><a href="../moh-portal/register.php">MOH Administrator</a></li>
               </ul>
             </li>
             <li>
               <a href="#" class="desktop-link">Login</a>
-              <input type="checkbox" id="show-services">
-              <label for="show-services">Services</label>
               <ul>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\citizen\login form\index.html">Citizen</a></li>
-                <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\inquirer\login form\index.html">Inquirer</a></li>
-                <li><a href="#">Vaccine Administrator</a></li>
-                <li><a href="#">MOH Administrator</a></li>
+                <li><a href="../citizen-portal/index.php">Citizen</a></li>
+                <li><a href="../inquirer-portal/index.php">Inquirer</a></li>
+                <li><a href="../vax-portal/index.php">Vaccine Administrator</a></li>
+                <li><a href="../moh-portal/index.php">MOH Administrator</a></li>
               </ul>
             </li>
             <li class="active"><a href="#">FAQ</a></li>
-            <!--<li><button onclick="myFunction()">Toggle dark mode</button></li>-->    
           </ul>
         </div>
 
@@ -115,11 +109,11 @@
 
       </ul>
 
-      <!--<div class="b-footer">
+      <div class="b-footer">
 
-      <p>All rights reserved by ©CompanyName 2020 </p>
+      <p>Created by Dion Singh</p>
 
-      </div>-->
+      </div>
 
     </footer>
     
@@ -128,5 +122,8 @@
   </body>
 
 </html>
+
+
+
 
 

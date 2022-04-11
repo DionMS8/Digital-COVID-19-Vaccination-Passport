@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Citizen | CoVaxPassTT</title>
-    <link rel="stylesheet" href="tracing.css">
+    <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -68,7 +68,19 @@
       opacity: 0.95;
       margin-top: 60px;
     }
+
+    .content .links li{
+      list-style: none;
+      line-height: 30px;
+    }
+
+    nav .content .links{
+      margin-left: 30px;
+      display: flex;
+    }
+
   </style>
+
 
     <div class="wrapper">
 
@@ -82,7 +94,7 @@
             <li class="active"><a href="#">Profile</a></li>
             <li><a href="../vax-history/vax-info.php">Vaccination History</a></li>
             <li><a href="../tracing/tracing.php">Contact Tracing</a></li>
-            <li><a href="#">File Upload</a></li>
+            <li><a href="../citizenfile-upload/index.php">File Upload</a></li>
             <li><a href="../logout.php">Logout</a></li>
           </ul>
         </div>

@@ -21,18 +21,18 @@
             <div><img class="tt-icon" src= "../images/tt-coat-of-arms.png"></div>
             <div class="logo"><a href="">CoVaxPassTT</a></div>
                 <ul class="links">
-                <li><a href="#">Home</a></li>
+                <li><a href="../index.php">Home</a></li>
                 <li class="active"><a href="#">About</a></li>
-                <li><a href="../vaccination-sites/vax-sites.html">Vaccination Sites</a></li>
+                <li><a href="../vaccination-sites/vax-sites.php">Vaccination Sites</a></li>
                 <li>
                     <a href="#" class="desktop-link">Register</a>
                     <input type="checkbox" id="show-features">
                     <label for="show-features">Features</label>
                     <ul>
-                    <li><a href="../citizen/citizen reg form/index.html">Citizen</a></li>
-                    <li><a href="../inquirer/inquirer reg form/index.html">Inquirer</a></li>
-                    <li><a href="../vax-admin/vax-admin reg form/index.html">Vaccine Administrator</a></li>
-                    <li><a href="../moh-admin/moh-admin reg form/index.html">MOH Administrator</a></li>
+                        <li><a href="../citizen-portal/register.php">Citizen</a></li>
+                        <li><a href="../inquirer-portal/register.php">Inquirer</a></li>
+                        <li><a href="../vax-portal/register.php">Vaccine Administrator</a></li>
+                        <li><a href="../moh-portal/register.php">MOH Administrator</a></li>
                     </ul>
                 </li>
                 <li>
@@ -40,20 +40,10 @@
                     <input type="checkbox" id="show-services">
                     <label for="show-services">Services</label>
                     <ul>
-                    <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\citizen\login form\index.html">Citizen</a></li>
-                    <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\inquirer\login form\index.html">Inquirer</a></li>
-                    <li><a href="#">Vaccine Administrator</a></li>
-                    <li><a href="#">MOH Administrator</a></li>
-                    <!--<li>
-                        <a href="#" class="desktop-link">More Items</a>
-                        <input type="checkbox" id="show-items">
-                        <label for="show-items">More Items</label>
-                        <ul>
-                        <li><a href="#">Sub Menu 1</a></li>
-                        <li><a href="#">Sub Menu 2</a></li>
-                        <li><a href="#">Sub Menu 3</a></li>
-                        </ul>
-                    </li>-->
+                        <li><a href="../citizen-portal/index.php">Citizen</a></li>
+                        <li><a href="../inquirer-portal/index.php">Inquirer</a></li>
+                        <li><a href="../vax-portal/index.php">Vaccine Administrator</a></li>
+                        <li><a href="../moh-portal/index.php">MOH Administrator</a></li>
                     </ul>
                 </li>
                 <li><a href="../faq/faq.html">FAQ</a></li>   
@@ -62,8 +52,8 @@
     
             </nav>
     
-        </div>
-        <br>
+        </div><br>
+
         <div class ="section">
             <div class ="container">
                 <div class ="content-section">

@@ -90,6 +90,19 @@
       opacity: 0.95;
       margin-top: 60px;
     }
+
+    nav .content .links{
+      margin-left: 10px;
+      display: flex;
+    }
+
+    .content .links li{
+      list-style: none;
+      line-height: 30px;
+      margin-left: 10px;
+    }
+
+
   </style>
 
     <div class="wrapper">
@@ -104,6 +117,7 @@
             <li><a href="../profile/profile.php">Profile</a></li>
             <li class="active"><a href="#">Vaccination History</a></li>
             <li><a href="../tracing/tracing.php">Contact Tracing</a></li>
+            <li><a href="../citizenfile-upload/index.php">File Upload</a></li>
             <li><a href="../logout.php">Logout</a></li>
           </ul>
         </div>
@@ -182,14 +196,15 @@
 
     <div id="qrcontent">
         <?php
-           echo "Name:" . " " . $row['citizen_fname'] . " " . $row['citizen_lname'] . " " . "Status:" 
-           . " " . $row['vax_status'] . " " . "Vaccination Site:" . " " 
+           echo "Name:" . " " . $row['citizen_fname'] . " " . $row['citizen_lname'] . " " . "Vaccination Site:" . " " 
            . $row['vaxsite_name'] . " " . "Dose 1:" . " " . $row['vax_type1']  . " " 
            . $row['vax_date1'] . " " . "Dose 2:" . " " . $row['vax_type2']  . " " 
            . $row['vax_date2'] . " " . "Dose 3:" . " " . $row['vax_type3']  . " " 
            . $row['vax_date3'];
         ?>
     </div>
+
+    <!-- " " . "Status:" . " " . $row['vax_status'] . -->
 
     <div id="citizen-info">
         <?php

@@ -21,6 +21,20 @@
 
   <body>
 
+    <style>
+
+      #overallContainer {
+        background-color: rgb(228, 228, 228);
+        height: 120%;
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        border: 3px solid rgb(177, 173, 173);
+      }
+
+    </style>
+
     <div class="wrapper">
 
       <nav>

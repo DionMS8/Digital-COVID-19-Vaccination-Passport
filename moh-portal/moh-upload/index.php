@@ -14,13 +14,38 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inquirer | COVIDVaxTT</title>
+    <title>MoH Portal | COVIDVaxTT</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"/>
   </head>
 
   <body>
+
+  <style>
+    body {
+      background-color:rgb(221, 217, 170);
+    }
+
+    nav .content .links{
+      margin-left: 10px;
+      display: flex;
+    }
+    .content .links li{
+      list-style: none;
+      line-height: 30px;
+      margin-left: 26px;
+    }
+
+    .content .logo a{
+      color: #fff;
+      -webkit-text-stroke: 0.8px black;
+      font-size: 27px;
+      font-weight: 600;
+    }
+
+  </style>
+
 
   <div class="wrapper">
 
@@ -30,20 +55,20 @@ $files = mysqli_fetch_all($result, MYSQLI_ASSOC);
       <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
       <div class="content">
       <div><img class="tt-icon" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/647px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"></div>
-      <div class="logo"><a href="#">COVIDVaxTT | MOH ADMINISTRATOR PORTAL</a></div>
+      <div class="logo"><a href="#">CoVaxPassTT | MoH PORTAL</a></div>
         <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li>
-            <a href="#" class="desktop-link">Manage Users</a>
-            <input type="checkbox" id="show-features">
-            <label for="show-features">Features</label>
-            <ul>
-              <li><a href="#">Authorized Inquirers</a></li>
-              <li><a href="#">Vaccine Administrator</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Citizen Requests</a></li>
-          <li><a href="#">Upload Files</a></li>
+            <li>
+              <a href="#" class="desktop-link">Manage Users</a>
+              <input type="checkbox" id="show-features">
+              <ul>
+                <li><a href="#">Authorized Inquirers</a></li>
+                <li><a href="#">Citizens</a></li>
+                <li><a href="../moh-vaxadmins/vaxadmins.php">Vaccine Administrator</a></li>
+              </ul>
+            </li>
+            <li><a href="../moh-reports/reports.php">Inquirer Reports</a></li>
+            <li><a href="../moh-upload/index.php">Upload Files</a></li>
+            <li><a href="../logout.php">Logout</a></li>
         </ul>
       </div>
     </nav>

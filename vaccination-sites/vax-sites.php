@@ -37,10 +37,9 @@
         <div><img id="tt-icon" src= "C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\images\tt-coat-of-arms.png"></div>
         <div class="logo"><a href="">CoVaxPassTT</a></div>
           <ul class="links">
-            <li><a href="C:\Users\Bryanna Orie\Desktop\COVID-19 Passport Web-Based System\home page\index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../about-page/about.php">About</a></li>
             <li class="active"><a href="#">Vaccination Sites</a></li>
-            <li><a href="#">Statistics</a></li>
             <li>
               <a href="#" class="desktop-link">Register</a>
               <input type="checkbox" id="show-features">
@@ -115,7 +114,7 @@
               <a href="#"><i class="fas fa-phone-volume"></i>+123 4567 8910</a>
             </div>
             <div class="email">
-              <a href="#"><i class="fas fa-envelope"></i>covidvaxtt@hotmail.com</a>
+              <a href="#"><i class="fas fa-envelope"></i>covaxpass.tt.868@gmail.com</a>
             </div>
           </div>
         </div>

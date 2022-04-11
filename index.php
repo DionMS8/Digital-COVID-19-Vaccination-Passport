@@ -42,8 +42,8 @@
         <div class="logo"><a href="">CoVaxPassTT</a></div>
           <ul class="links">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="../vaccination-sites/vax-sites.html">Vaccination Sites</a></li>
+            <li><a href="./about-page/about.php">About</a></li>
+            <li><a href="./vaccination-sites/vax-sites.php">Vaccination Sites</a></li>
             <li>
               <a href="#" class="desktop-link">Register</a>
               <ul>
@@ -62,7 +62,7 @@
                 <li><a href="./moh-portal/index.php">MOH Administrator</a></li>
               </ul>
             </li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="./faq/faq.php">FAQ</a></li>
             <!--<li><button onclick="myFunction()">Toggle dark mode</button></li>--> 
             <div><img class="qr-icon" src= "./images/qr-icon.png"></div>   
           </ul>

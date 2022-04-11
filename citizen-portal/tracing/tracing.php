@@ -44,7 +44,7 @@
             <li><a href="../profile/profile.php">Profile</a></li>
             <li><a href="../vax-history/vax-info.php">Vaccination History</a></li>
             <li class="active"><a href="#">Contact Tracing</a></li>
-            <li><a href="#">File Upload</a></li>
+            <li><a href="../citizenfile-upload/index.php">File Upload</a></li>
             <li><a href="../logout.php">Logout</a></li>
           </ul>
         </div>
@@ -57,45 +57,57 @@
     
               
     <style>
+      nav .content .links{
+            margin-left: 10px;
+            display: flex;
+          }
 
-.footer {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 50px;
-  color: #fff;
-  border-top: 2px solid #D00000;
-  background: linear-gradient(#59C5B3, #009D7E);
-  opacity: 0.95;
-  bottom: 0;
-  }
+          .content .links li{
+            list-style: none;
+            line-height: 30px;
+            margin-left: 10px;
+          }
 
-table {
-border-collapse: collapse;
-width: 95%;
-color: black;
-font-family: monospace;
-font-size: 15px;
-text-align: left;
-margin: auto;
-}
+      .footer {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 50px;
+        color: #fff;
+        border-top: 2px solid #D00000;
+        background: linear-gradient(#59C5B3, #009D7E);
+        opacity: 0.95;
+        bottom: 0;
+        }
 
-tr {
-  margin-top: 5px;
-  color: black;
-}
+      table {
+      border-collapse: collapse;
+      width: 95%;
+      color: black;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: left;
+      margin: auto;
+      }
 
-th {
-  background-color: #009D7E;
-  color: white;
-}
+      tr {
+        margin-top: 5px;
+        color: black;
+      }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+      th {
+        background-color: #009D7E;
+        color: white;
+      }
 
-</style>
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+    </style>
+
 
 <table>
+  
 <tr>
 <th>Company Name</th>
 <th>Company Address</th>

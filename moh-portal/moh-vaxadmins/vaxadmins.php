@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Vaccine Administrator | CoVaxPassTT</title>
+    <title>MoH Portal | CoVaxPassTT</title>
 
     <link rel="stylesheet" href="webcam.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -50,7 +50,7 @@
               </ul>
             </li>
             <li><a href="../moh-reports/reports.php">Inquirer Reports</a></li>
-            <li><a href="../moh-upload/upload.php">Upload Files</a></li>
+            <li><a href="../moh-upload/index.php">Upload Files</a></li>
             <li><a href="../logout.php">Logout</a></li>
           </ul>
         </div>
