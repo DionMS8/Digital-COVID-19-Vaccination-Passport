@@ -20,13 +20,14 @@ This repo contains the source code for a web-based system for facilitating the d
 - PHP
 - MySQL
 - PHPMyAdmin
-- QRCode.js
+- WebcamJS
+- QRCodeJS
 - jsQR
 - jsPDF
 
 ## Site Map
 
-![image](https://user-images.githubusercontent.com/55777067/150393610-7905d69f-4493-4a40-a7ed-bf4dbc91c84b.png)
+![image](https://user-images.githubusercontent.com/55777067/161369116-077e78a1-758b-4f99-84d7-dc3bf2801b76.png)
 
 ## Use-Case Diagram
 
