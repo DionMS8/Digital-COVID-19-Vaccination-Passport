@@ -25,7 +25,7 @@
 
       #overallContainer {
         background-color: rgb(228, 228, 228);
-        height: 120%;
+        height: 160%;
         width: 80%;
         margin: auto;
         margin-top: 40px;
@@ -64,9 +64,11 @@
       <div id="qrcodeContainer" hidden=true>
         <div id="loadingMessage">Unable to access your webcam (please ensure it is enabled)</div>
         <canvas id="canvas" hidden></canvas>
+        <br><br><br>
+        <div>Vaccination Information: <span id="info"></span></div>
+        <br><br>
         <div id="info"><span id="qrOutput"></span></div>
         <br>
-        <div>Vaccination Information: <span id="info"></span></div>
       </div>
     </div>
 

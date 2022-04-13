@@ -76,8 +76,6 @@
 
     #logo {
       display: none
-      /* width: 200px;
-      height: 200px; */
     }
 
     .footer {
@@ -196,11 +194,7 @@
 
     <div id="qrcontent">
         <?php
-           echo "Name:" . " " . $row['citizen_fname'] . " " . $row['citizen_lname'] . " " . "Vaccination Site:" . " " 
-           . $row['vaxsite_name'] . " " . "Dose 1:" . " " . $row['vax_type1']  . " " 
-           . $row['vax_date1'] . " " . "Dose 2:" . " " . $row['vax_type2']  . " " 
-           . $row['vax_date2'] . " " . "Dose 3:" . " " . $row['vax_type3']  . " " 
-           . $row['vax_date3'];
+           echo "Name:" . " " . $row['citizen_fname'] . " " . $row['citizen_lname'] . " " . "Vaccination Site:" . " " . $row['vaxsite_name'] . " " . "Dose 1:" . " " . $row['vax_type1']  . " " . $row['vax_date1'] . " " . "Dose 2:" . " " . $row['vax_type2']  . " " . $row['vax_date2'] . " " . "Dose 3:" . " " . $row['vax_type3']  . " " . $row['vax_date3'];
         ?>
     </div>
 
@@ -286,8 +280,8 @@
                   format: [190, 80]
               });
 
-              pdf.addImage(base64Image, 'png', 0, 0, 40, 40);
-              pdf.save(`${citizenFullName}_CoVaxPassTT_Certificate.pdf`);
+              // pdf.addImage(base64Image, 'png', 0, 0, 40, 40);
+              // pdf.save(`${citizenFullName}_CoVaxPassTT_Certificate.pdf`);
 
               pdf.setFontSize(15);
               pdf.text('CoVaxPassTT COVID-19 Vaccination Certificate', 43, 10);
@@ -310,6 +304,7 @@
               console.log(base64Image);
 
               pdf.addImage(base64Image, 'png', 0, 0, 40, 40);
+              
               pdf.save(`${qrcitizen}_CoVaxPassTT_Certificate.pdf`);
           }
       );

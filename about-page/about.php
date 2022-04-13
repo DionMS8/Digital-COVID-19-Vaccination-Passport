@@ -46,7 +46,7 @@
                         <li><a href="../moh-portal/index.php">MOH Administrator</a></li>
                     </ul>
                 </li>
-                <li><a href="../faq/faq.html">FAQ</a></li>   
+                <li><a href="../faq/faq.php">FAQ</a></li>   
                 </ul>
             </div>
     
@@ -100,46 +100,44 @@
             <li>
                 <h2>Services</h2>
                 <ul class="box">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Pinterest</a></li>
-                    <li><a href="#">Dribbble</a></li>
+                    <!-- <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li> -->
                 </ul>
             </li>
             
             <li>
                 <h2>Register</h2>
                 <ul class="box">
-                <li><a href="#">Citizen</a></li>
-                <li><a href="#">Authorized Inquirer</a></li>
-                <li><a href="#">Vaccine Administrator</a></li>
-                <li><a href="#">MoH Administrator</a></li>
+                    <li><a href="#">Citizen</a></li>
+                    <li><a href="#">Authorized Inquirer</a></li>
+                    <li><a href="#">Vaccine Administrator</a></li>
+                    <li><a href="#">MoH Administrator</a></li>
                 </ul>
             </li>
     
             <li>
                 <h2>Login</h2>
                 <ul class="box">
-                <li><a href="#">Citizen</a></li>
-                <li><a href="#">Authorized Inquirer</a></li>
-                <li><a href="#">Vaccine Administrator</a></li>
-                <li><a href="#">MoH Administrator</a></li>
+                    <li><a href="#">Citizen</a></li>
+                    <li><a href="#">Authorized Inquirer</a></li>
+                    <li><a href="#">Vaccine Administrator</a></li>
+                    <li><a href="#">MoH Administrator</a></li>
                 </ul>
             </li>
     
             </ul>
     
-            <!--<div class="b-footer">
-    
-            <p>All rights reserved by ©CompanyName 2020 </p>
-    
-            </div>-->
+            <div class="b-footer">
+                <p>Created by Dion Singh</p>
+            </div>
     
             </footer>
             
     </body>
 
 </html>
+
+
 
 
 
