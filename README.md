@@ -55,6 +55,7 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ![image](https://user-images.githubusercontent.com/55777067/168417918-2552732c-5453-4ec3-aa22-fa3b7ce9264e.png)
 
+## Vaccination Sites
 ![image](https://user-images.githubusercontent.com/55777067/168418156-dc940cee-4906-4dca-a313-6c23747f291c.png)
 
 
