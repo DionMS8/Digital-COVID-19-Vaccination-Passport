@@ -37,7 +37,7 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ![image](https://user-images.githubusercontent.com/55777067/168417736-748a3bd8-bfd8-4c27-b4dc-12e074e13ccd.png)
 
-![image](https://user-images.githubusercontent.com/55777067/168418119-bd8f80fc-cd70-4d4d-adb0-b17350b4222f.png)
+![image](https://user-images.githubusercontent.com/55777067/168418257-54afe503-a14a-4002-9658-88682699e009.png)
 
 ![image](https://user-images.githubusercontent.com/55777067/168417713-9f5bcb32-2791-4f86-946f-715a10041707.png)
 
