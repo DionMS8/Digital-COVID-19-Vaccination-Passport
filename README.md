@@ -39,8 +39,6 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ![image](https://user-images.githubusercontent.com/55777067/168418119-bd8f80fc-cd70-4d4d-adb0-b17350b4222f.png)
 
-![image](https://user-images.githubusercontent.com/55777067/168417721-57ff8b95-a138-461c-9612-5b9329906856.png)
-
 ![image](https://user-images.githubusercontent.com/55777067/168417713-9f5bcb32-2791-4f86-946f-715a10041707.png)
 
 ![image](https://user-images.githubusercontent.com/55777067/168417728-a00825e0-7762-45a3-b617-3f565a13a109.png)
@@ -57,6 +55,7 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ![image](https://user-images.githubusercontent.com/55777067/168417918-2552732c-5453-4ec3-aa22-fa3b7ce9264e.png)
 
+![image](https://user-images.githubusercontent.com/55777067/168418156-dc940cee-4906-4dca-a313-6c23747f291c.png)
 
 
 ## Use-Case Diagram
