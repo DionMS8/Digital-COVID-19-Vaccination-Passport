@@ -26,18 +26,15 @@ This repo contains the source code for a web-based system for facilitating the d
 - jsPDF
 
 ## Site Map
-
 ![image](https://user-images.githubusercontent.com/55777067/161369116-077e78a1-758b-4f99-84d7-dc3bf2801b76.png)
 
-## Screenshots
-
-### Home Page
+## Home Page
 ![image](https://user-images.githubusercontent.com/55777067/168417872-4a8febe7-7889-44a6-ae9f-24193848ba7b.png)
 
-### Email Verification
+## Email Verification
 ![image](https://user-images.githubusercontent.com/55777067/168417746-6b60499d-4500-4543-b076-e45d79054f7f.png)
 
-### User Login
+## User Login
 ![image](https://user-images.githubusercontent.com/55777067/168417736-748a3bd8-bfd8-4c27-b4dc-12e074e13ccd.png)
 
 ![image](https://user-images.githubusercontent.com/55777067/168418257-54afe503-a14a-4002-9658-88682699e009.png)
