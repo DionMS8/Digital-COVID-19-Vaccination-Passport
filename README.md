@@ -53,6 +53,10 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ![image](https://user-images.githubusercontent.com/55777067/168417785-15e58eb3-9214-4529-8923-19fa9b61826a.png)
 
+![image](https://user-images.githubusercontent.com/55777067/168417918-2552732c-5453-4ec3-aa22-fa3b7ce9264e.png)
+
+![image](https://user-images.githubusercontent.com/55777067/168417959-72b21187-8bc9-4269-a919-9f330bed90dc.png)
+
 
 ## Use-Case Diagram
 
