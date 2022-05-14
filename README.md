@@ -49,3 +49,6 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ## Screenshots
 
+<hr>
+
+If you like this project, leave a ⭐
