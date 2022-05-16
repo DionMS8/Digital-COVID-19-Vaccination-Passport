@@ -74,6 +74,19 @@ This repo contains the source code for a web-based system for facilitating the d
 ![image](https://user-images.githubusercontent.com/55777067/150393895-a38b55e3-0213-4d52-ba22-1f17423de35b.png)
 
 
-<hr>
+## 🤝 Contributing
 
-### If you like this project, leave a ⭐
+Contributions, issues and feature requests are welcome. After cloning & setting up project locally, you can just submit a PR to this repo and it will be deployed once it's accepted.
+
+
+⚠️ It’s good to have descriptive commit messages, or PR titles so that other contributors can understand about your commit or the PR Created. Read [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.3/) before making the commit message.
+
+
+## 💬 Get in touch
+
+If you have various suggestions, questions or want to discuss things with our community, Have a look at the Discussion section on this repo or reach out at Twitter!
+
+
+## 🙌 Show your support
+
+Be sure to leave a ⭐️ if you like the project and also be sure to contribute, if you're interested!
