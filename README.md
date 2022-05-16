@@ -15,15 +15,11 @@ This repo contains the source code for a web-based system for facilitating the d
 
 ## Technologies
 
-- HTML5 & CSS3
-- Javascript (ES6)
-- PHP
-- MySQL
-- PHPMyAdmin
-- WebcamJS
-- QRCodeJS
-- jsQR
-- jsPDF
+- Languages: HTML5, CSS3, Javascript (ES6), PHP
+- Database Management System: MySQL
+- Database Client: PHPMyAdmin
+- Libraries: Leaflet.js, Webcam.js, QRCodeJS, jsQR, jsPDF
+- Text Editor: VSCode
 
 ## Site Map
 ![image](https://user-images.githubusercontent.com/55777067/161369116-077e78a1-758b-4f99-84d7-dc3bf2801b76.png)
