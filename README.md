@@ -84,7 +84,7 @@ Contributions, issues and feature requests are welcome. After cloning & setting 
 
 ## 💬 Get in touch
 
-If you have various suggestions, questions or want to discuss things with our community, Have a look at the Discussion section on this repo or reach out at Twitter!
+If you have various suggestions, questions or want to discuss things, Have a look at the Discussion section on this repo or reach out at Twitter!
 
 
 ## 🙌 Show your support
